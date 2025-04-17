@@ -73,8 +73,8 @@ English and Hungarian translations have been included, so no translators will be
   - [Volvone](https://github.com/volvone)
 - 🇨🇿 Czech
   - [Blurplix](https://crowdin.com/profile/Blurplix)
+  - [HolyRadek](https://crowdin.com/profile/holyradek)
   - [klauny](https://crowdin.com/profile/klauny)
-  - [ProfiRaDeK\_](https://crowdin.com/profile/surikatibratri)
   - [イーテルニティ ☄️](https://crowdin.com/profile/Ethxrnity)
 - 🇩🇰 Danish
   - [jovictasor](https://crowdin.com/profile/jovictasor)
@@ -193,7 +193,7 @@ English and Hungarian translations have been included, so no translators will be
 - 🇹🇭 Thai: [timelessnesses](https://github.com/timelessnesses)
 - 🇹🇷 Turkish
   - [Baran Moroğan](https://crowdin.com/profile/okunamayanad)
-  - [tututuana](https://github.com/tututuana)
+  - [tututuana](https://crowdin.com/profile/tututuana)
   - [x0jony](https://crowdin.com/profile/x0jony)
 - 🇺🇦 Ukrainian
   - [Alexander](https://crowdin.com/profile/Mr.Shad)

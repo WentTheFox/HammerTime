@@ -390,10 +390,7 @@
       "countryCode": "TR",
       "emoji": "🇹🇷",
       "creditOverrides": {
-        "13533384": null,
-        "14391214": {
-          "url": "https://github.com/tututuana"
-        }
+        "13533384": null
       }
     },
     "uk": {
