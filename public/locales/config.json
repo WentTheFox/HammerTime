@@ -432,6 +432,12 @@
       "creditOverrides": {
         "16601907": null
       }
+    },
+    "fi": {
+      "name": "Finnish",
+      "nativeName": "Suomi",
+      "countryCode": "FI",
+      "emoji": "\uD83C\uDDEB\uD83C\uDDEE"
     }
   }
 }

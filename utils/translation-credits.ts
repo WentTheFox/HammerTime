@@ -120,7 +120,7 @@ void (async () => {
   console.info(`Reading translation progress for project ${crowdinProjectIdentifier}…`);
   const translationProgressResponse = await crowdinApiRequest<ProjectTranslationProgressResponse>({
     // Multiplier accounts for languages which have not been set up for use in the app yet
-    path: `/projects/${crowdinProjectId}/languages/progress?limit=${Object.keys(LANGUAGES).length * 1.25}`,
+    path: `/projects/${crowdinProjectId}/languages/progress?limit=${Math.ceil(Object.keys(LANGUAGES).length * 1.25)}`,
     crowdinApiKey,
   });
 

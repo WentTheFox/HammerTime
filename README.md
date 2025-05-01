@@ -81,6 +81,9 @@ English and Hungarian translations have been included, so no translators will be
   - [Lennart Christiansen](https://crowdin.com/profile/LennartDenmark)
   - [MikeyDK](https://crowdin.com/profile/MikeyDK)
 - 🇳🇱 Dutch: [Jesse](https://github.com/Jessuhh)
+- 🇫🇮 Finnish
+  - [Cookie](https://crowdin.com/profile/cookiethegamer33)
+  - [Deadly dead](https://crowdin.com/profile/cricribebe)
 - 🇫🇷 French
   - [Alex6](https://crowdin.com/profile/Alex6_)
   - [Alexander](https://crowdin.com/profile/Mr.Shad)
@@ -101,7 +104,9 @@ English and Hungarian translations have been included, so no translators will be
   - [Julius Geiger](https://crowdin.com/profile/julix00)
   - [The Robot](https://crowdin.com/profile/therobot)
   - [TheOnlyRAK](https://crowdin.com/profile/TheOnlyRAK)
-- 🇬🇷 Greek: [Belle Bernice](https://crowdin.com/profile/BelleBernice)
+- 🇬🇷 Greek
+  - [Belle Bernice](https://crowdin.com/profile/BelleBernice)
+  - [dx4](https://crowdin.com/profile/dx4)
 - 🇮🇱 Hebrew
   - [Amit Cohen](https://crowdin.com/profile/ZeRealOne)
   - [Arthur](https://crowdin.com/profile/DuperKnight)

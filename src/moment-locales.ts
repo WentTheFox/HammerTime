@@ -10,6 +10,7 @@ import 'moment/locale/el';
 import 'moment/locale/en-gb';
 import 'moment/locale/es';
 import 'moment/locale/fa';
+import 'moment/locale/fi';
 import 'moment/locale/fr';
 import 'moment/locale/he';
 import 'moment/locale/hi';

@@ -9,6 +9,7 @@ import 'dayjs/locale/el';
 import 'dayjs/locale/en-gb';
 import 'dayjs/locale/es';
 import 'dayjs/locale/fa';
+import 'dayjs/locale/fi';
 import 'dayjs/locale/fr';
 import 'dayjs/locale/he';
 import 'dayjs/locale/hi';

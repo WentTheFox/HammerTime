@@ -1,0 +1,95 @@
+{
+  "seoDescription": "Luo aikaleimailmaisimet Discord-chat-viesteille",
+  "howTo": "Valitse päivämäärä, kopioi haluamasi aikaleima {{syntaxColName}} -sarakkeeseen ja liitä se mihin tahansa chat-viestin kohtaan. Tuloksena on dynaaminen aikaleima, joka näkyy eri tavalla jokaiselle oman aikavyöhykkeensä perusteella.",
+  "input": {
+    "timezone": "Aikavyöhyke",
+    "datetime": "Päivämäärä ja aika",
+    "date": "Päivämäärä",
+    "time": "Aika",
+    "settings": {
+      "label": "Syöttöasetukset",
+      "customInputs": {
+        "label": "Mukautetut syötteet",
+        "explanation": "Korvaa oletussyötteet sellaisilla, jotka vastaavat nykyistä kieltä selaimen kielen sijaan"
+      },
+      "separateInputs": {
+        "label": "Erilliset tulot",
+        "explanation": "Näytä kaksi eri päivämäärän ja kellonajan syötettä yhdistetyn syötteen sijaan (mitä ei tueta joissakin selaimissa)"
+      }
+    }
+  },
+  "buttons": {
+    "copy": "Kopioi leikepöydälle",
+    "setCurrentTime": "Aseta nykyiseen aikaan",
+    "lock": "Lukitse aikaleima URL",
+    "unlock": "Avaa aikaleima"
+  },
+  "table": {
+    "syntax": "Chat-syntaksi",
+    "example": "Esimerkki tuloksesta"
+  },
+  "usefulLinks": {
+    "lead": "Saatat myös löytää nämä hyödylliset:",
+    "server": {
+      "header": "Official HammerTime Server",
+      "p": "Keskustele verkkosivustosta, testaa syntaksia ja ehdota ominaisuuksia"
+    },
+    "bot": {
+      "header": "HammerTime-sovellus",
+      "pWithoutCommand": "Luo aikaleimoja Discordissa kauttaviivakomennoilla"
+    },
+    "textColor": {
+      "header": "Rebanen <1>Värillinen</1> Tekstigeneraattori",
+      "p": "A simple app that creates colored Discord messages using ANSI color codes"
+    }
+  },
+  "changeLanguage": "Change language",
+  "notFound": {
+    "heading": "Not Found",
+    "content": "Nothing to see here."
+  },
+  "viewSource": "View source code",
+  "notAffiliated": "This project is not affiliated with Discord.",
+  "jsDisabled": {
+    "title": "JavaScript is necessary",
+    "body": "Your browser either does not support JavaScript or it's currently disabled. Some browsers disable JavaScript by default for security reasons, but it's necessary for this application. Please enable it and refresh the page, or use a different browser."
+  },
+  "timeSync": {
+    "syncing": "Synchronizing time with server…",
+    "outOfSync": "Your device time seems off, this may lead to calculation errors (difference: {{deltaTimeMs}}ms)",
+    "inSync": "Time synchronized (difference: {{deltaTimeMs}}ms)"
+  },
+  "a11y": {
+    "calendar": {
+      "nextMonthLabel": "next month",
+      "previousMonthLabel": "previous month",
+      "nextYearLabel": "next year",
+      "previousYearLabel": "previous year",
+      "nextDecadeLabel": "next decade",
+      "previousDecadeLabel": "previous decade"
+    },
+    "toggleSidebarPosition": "Move sidebar to opposite side"
+  },
+  "credits": {
+    "title": "Credits",
+    "translationsBy": "Translations by <1></1>",
+    "incompleteTranslations": "Translations are incomplete",
+    "contributeTranslations": "Contribute",
+    "developedBy": "Developed by <1></1>",
+    "externalLibraries": "Using <1></1>",
+    "openSource": "Open-source software",
+    "fontAwesomeFree": "Font Awesome Free",
+    "mantine": "Mantine"
+  },
+  "add-app": {
+    "title": "Select where you would like to add the app",
+    "user": {
+      "title": "Add to My Apps",
+      "description": "Use this app everywhere!"
+    },
+    "guild": {
+      "title": "Add to Server",
+      "description": "Customize your server by adding this app"
+    }
+  }
+}

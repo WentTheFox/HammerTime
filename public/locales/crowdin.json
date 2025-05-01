@@ -55,6 +55,10 @@
       "username": "ShadowG",
       "avatarUrl": "https://crowdin-static.cf-downloads.crowdin.com/avatar/13110344/medium/be3cabf0ae69468ba96625a9422dd9b0_default.png"
     },
+    "13365555": {
+      "username": "dx4",
+      "avatarUrl": "https://crowdin-static.cf-downloads.crowdin.com/avatar/13365555/medium/7edcde29c5d54240306bad5ce7fadf57_default.png"
+    },
     "13379819": {
       "username": "Chrisdbhr",
       "avatarUrl": "https://crowdin-static.cf-downloads.crowdin.com/avatar/13379819/medium/f9f1d9f07ed024f9984cfee30171c158.jpg",
@@ -625,7 +629,8 @@
     },
     "el": {
       "translatorIds": [
-        "14459560"
+        "14459560",
+        "13365555"
       ],
       "progress": {
         "approval": 100,
@@ -662,6 +667,16 @@
       "progress": {
         "approval": 77,
         "translation": 77
+      }
+    },
+    "fi": {
+      "translatorIds": [
+        "16779295",
+        "16812111"
+      ],
+      "progress": {
+        "approval": 46,
+        "translation": 46
       }
     },
     "fr": {
@@ -985,8 +1000,8 @@
         "15745113"
       ],
       "progress": {
-        "approval": 88,
-        "translation": 88
+        "approval": 100,
+        "translation": 100
       }
     },
     "vi": {
