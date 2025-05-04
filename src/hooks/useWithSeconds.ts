@@ -7,7 +7,7 @@ export const useWithSeconds = (): boolean => {
 
   /**
    * This is a workaround because Firefox on Android has a bugged time selector when seconds are allowed
-   * @see https://github.com/DJDavid98/HammerTime/issues/153
+   * @see https://github.com/WentTheFox/HammerTime/issues/153
    */
   useEffect(() => {
     const lowerUserAgent = navigator.userAgent.toLowerCase();

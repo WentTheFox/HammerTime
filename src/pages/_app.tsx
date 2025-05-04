@@ -76,7 +76,7 @@ const App: AppComponent = ({ Component, pageProps }) => {
         }}
         twitter={{
           cardType: 'summary_large_image',
-          handle: '@DJDavid98',
+          handle: '@WentTheFox',
         }}
         canonical={canonicalUrl}
         languageAlternates={languageAlternates}
