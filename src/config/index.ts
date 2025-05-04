@@ -3,11 +3,11 @@ import localeConfig from '../../public/locales/config.json';
 
 export const SITE_TITLE = 'HammerTime';
 export const CANONICAL_URL = 'https://hammertime.cyou';
-export const REPOSITORY_URL = 'https://github.com/DJDavid98/HammerTime';
+export const REPOSITORY_URL = 'https://github.com/WentTheFox/HammerTime';
 export const CROWDIN_URL = 'https://crowdin.com/project/hammertime';
 export const FONTAWESOME_FREE_LICENSE_URL = 'https://fontawesome.com/license/free';
-export const DEVELOPER_NAME = 'DJDavid98';
-export const DEVELOPER_URL = 'https://djdavid98.art';
+export const DEVELOPER_NAME = 'WentTheFox';
+export const DEVELOPER_URL = 'https://went.tf';
 export const DEVELOPER_AVATAR_URL = 'https://gravatar.com/avatar/f341ebe7cfc73b35ff4ec66897b5c30d?size=64';
 export const MANTINE_URL = 'https://mantine.dev';
 
