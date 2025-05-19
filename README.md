@@ -206,6 +206,7 @@ English and Hungarian translations have been included, so no translators will be
   - [GameHacker](https://crowdin.com/profile/GameHacker)
   - [i](https://crowdin.com/profile/enky)
   - [Mykhailo Yaremenko](https://crowdin.com/profile/WhiteBear60)
+  - [Кухарчук Ярослав](https://crowdin.com/profile/Gamer_Yaroslaw)
 - 🇵🇰 Urdu (Pakistan)
   - [Muhammad Dawood](https://crowdin.com/profile/Developer_X)
   - [muharslan](https://crowdin.com/profile/muharslan)

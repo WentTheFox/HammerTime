@@ -7,15 +7,13 @@ import { CROWDIN_URL } from 'src/config';
 import { getIsTranslationComplete } from 'src/util/crowdin';
 import { MantineGradient } from '@mantine/styles';
 
-const noTranslationsNeededLocales = new Set(['en', 'en-GB', 'hu']);
 const incompleteButtonGradient: MantineGradient = { from: 'blue', to: 'lime', deg: 135 };
 
-export const UnfinishedTranslationsLink: FC<{ crowdinLocale: string; percent?: number }> = ({ crowdinLocale, percent }) => {
+export const UnfinishedTranslationsLink: FC<{
+  crowdinLocale: string;
+  percent?: number;
+}> = ({ crowdinLocale, percent }) => {
   const { t } = useTranslation();
-
-  if (noTranslationsNeededLocales.has(crowdinLocale)) {
-    return null;
-  }
 
   const label = t('credits.contributeTranslations');
   const isComplete = getIsTranslationComplete(percent);

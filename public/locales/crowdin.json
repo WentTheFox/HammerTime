@@ -554,6 +554,11 @@
       "username": "yilifaer",
       "avatarUrl": "https://crowdin-static.cf-downloads.crowdin.com/avatar/16939833/medium/7d09f6c5d42586a5343236a7f9c915b6.jpeg",
       "fullName": "Faer Yili"
+    },
+    "17111570": {
+      "username": "Gamer_Yaroslaw",
+      "avatarUrl": "https://crowdin-static.cf-downloads.crowdin.com/avatar/17111570/medium/90104c0bf590e20982b84141dfbca253.jpeg",
+      "fullName": "Кухарчук Ярослав"
     }
   },
   "languages": {
@@ -985,6 +990,7 @@
         "15497858",
         "15276044",
         "16601907",
+        "17111570",
         "14495070",
         "16036800",
         "14236042"

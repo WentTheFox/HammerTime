@@ -13,6 +13,7 @@ import { getDirAttribute } from 'src/util/common';
 import { getIsTranslationComplete, getTranslationCompletePercent, getTranslationCompletionData } from 'src/util/crowdin';
 
 const flagIconSize = 32;
+const noTranslationsNeededLocales = new Set(['en', 'en-GB', 'hu']);
 
 export const LanguageSelector: FC = () => {
   const router = useRouter();
@@ -32,6 +33,8 @@ export const LanguageSelector: FC = () => {
   const completionData = getTranslationCompletionData(language);
   const languagePercent = getTranslationCompletePercent(completionData);
   const isTranslationComplete = getIsTranslationComplete(languagePercent);
+  const crowdinLocale = currentLanguage?.crowdinLocale || language;
+  const isTranslationNeeded = !noTranslationsNeededLocales.has(crowdinLocale);
 
   return (
     <Box
@@ -52,7 +55,7 @@ export const LanguageSelector: FC = () => {
               {currentLanguage?.nativeName}
             </Text>
           </Group>
-          {!isTranslationComplete && (
+          {!isTranslationComplete && isTranslationNeeded && (
             <>
               <Text color="#6dc271">{t('credits.incompleteTranslations')}</Text>
               <Progress color="#6dc271" value={languagePercent} radius="xs" />
@@ -72,7 +75,7 @@ export const LanguageSelector: FC = () => {
             >
               <Text>{t('common:changeLanguage')}</Text>
             </Button>
-            <UnfinishedTranslationsLink percent={languagePercent} crowdinLocale={currentLanguage?.crowdinLocale || language} />
+            {isTranslationNeeded && <UnfinishedTranslationsLink percent={languagePercent} crowdinLocale={crowdinLocale} />}
           </Group>
         </Popover.Target>
         <Popover.Dropdown>
@@ -89,7 +92,7 @@ export const LanguageSelector: FC = () => {
                   dir={getDirAttribute(key as AvailableLanguage)}
                   leftIcon={<LanguageFlag language={value} />}
                   rightIcon={
-                    !getIsTranslationComplete(languageCompletionData) ? (
+                    !getIsTranslationComplete(languageCompletionData) && !noTranslationsNeededLocales.has(language) ? (
                       <Text color="green">
                         <FontAwesomeIcon icon="life-ring" />
                       </Text>
