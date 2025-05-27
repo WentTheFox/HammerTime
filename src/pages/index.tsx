@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { Button, MantineSize, Paper, Tooltip } from '@mantine/core';
+import { Button, MantineSize, Paper, Text, Tooltip } from '@mantine/core';
 import { DatesProvider, DayOfWeek } from '@mantine/dates';
 import { DatesProviderSettings } from '@mantine/dates/lib/components/DatesProvider/DatesProvider';
 import { AppContainer } from 'components/app/AppContainer';
@@ -242,7 +242,8 @@ export const IndexPage: NextPage<IndexPageProps> = ({ tzNames }) => {
 
           {!!leadText && (
             <Paper p="lg">
-              <UsefulLinks t={t} leadText={leadText} />
+              <Text className="lead-text">{leadText}</Text>
+              <UsefulLinks t={t} language={language} />
             </Paper>
           )}
         </AppContainer>
