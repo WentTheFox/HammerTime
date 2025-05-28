@@ -80,7 +80,6 @@
   },
   "credits": {
     "title": "Credits",
-    "intro": "This website is open-source software developed by <1>{{developerName}}</1> using <3>Font Awesome Free</3> and <5>Mantine</5>. It's available in multiple languages thanks to volunteer translators.",
     "translationsBy": "Translations by <1></1>",
     "incompleteTranslations": "Translations are incomplete",
     "contributeTranslations": "Contribute",
