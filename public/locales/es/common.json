@@ -41,6 +41,14 @@
     "textColor": {
       "header": "Generador de texto de <1>color</1> de Rebane",
       "p": "Una aplicación simple que crea mensajes coloreados de Discord utilizando los códigos de color ANSI"
+    },
+    "betaSite": {
+      "header": "Página Web Beta de HammerTime",
+      "p": "Última versión de la página web, también te deja gestionar tus ajustes de la aplicación"
+    },
+    "subreddit": {
+      "header": "r/SplitSecond",
+      "p": "La comunidad que organiza retos semanales para un juego de carrera infravalorado que inspiró la creación de este proyecto"
     }
   },
   "changeLanguage": "Cambiar Idioma",

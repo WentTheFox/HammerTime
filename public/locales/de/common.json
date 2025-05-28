@@ -41,6 +41,14 @@
     "textColor": {
       "header": "Rebane's <1>Farbiger</1> Text Generator",
       "p": "Eine einfache Anwendung, die farbige Discord-Nachrichten mit ANSI-Farbcodes erstellt"
+    },
+    "betaSite": {
+      "header": "HammerTime Beta Webseite",
+      "p": "Neueste Version der Webseite, ermöglicht es dir deine App-Einstellungen zu verwalten"
+    },
+    "subreddit": {
+      "header": "r/SplitSecond",
+      "p": "Die Community, die wöchentliche Herausforderungen für ein unterschätztes Rennspiel veranstaltet, inspirierte die Entstehung dieses Projekts"
     }
   },
   "changeLanguage": "Sprache ändern",

@@ -41,6 +41,14 @@
     "textColor": {
       "header": "Rebane <1>Színezett</1> Szöveg Generálója",
       "p": "Egy egyszerű oldal, ami ANSI színkódokkal színezett Discord üzeneteket készít"
+    },
+    "betaSite": {
+      "header": "HammerTime Béta Weboldal",
+      "p": "A weboldal legújabb verziója, itt tudod kezelni az app beállításokat is"
+    },
+    "subreddit": {
+      "header": "r/SplitSecond",
+      "p": "Egy alulértékelt autóversenyzős játék közössége, mely heti kihívások házigazdája, és a projekt létrejöttét ihlette"
     }
   },
   "changeLanguage": "Nyelv változtatás",
