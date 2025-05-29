@@ -41,6 +41,14 @@
     "textColor": {
       "header": "Penjana Tulisan <1>Berwarna</1> Rebane",
       "p": "Aplikasi ringkas yang menjana mesej Discord berwarna menggunakan kod warna ANSI"
+    },
+    "betaSite": {
+      "header": "Laman Sesawang Beta HammerTime",
+      "p": "Versi laman sesawang terbaru, juga membolehkan anda mengurus tetapan apl anda"
+    },
+    "subreddit": {
+      "header": "r/SplitSecond",
+      "p": "Komuniti yang mengehos cabaran mingguan bagi permainan perlumbaan yang kurang diketahui yang menginspirasikan penciptaan projek ini"
     }
   },
   "changeLanguage": "Tukar bahasa",
