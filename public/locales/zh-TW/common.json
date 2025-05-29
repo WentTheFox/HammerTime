@@ -41,6 +41,14 @@
     "textColor": {
       "header": "Rebane 的 <1>彩色</1> 文本生成器",
       "p": "使用 ANSI 顏色代碼建立彩色 Discord 訊息的簡單應用程式"
+    },
+    "betaSite": {
+      "header": "HammerTime Beta 版網站",
+      "p": "最新網站版本，還能讓您管理應用程式設定"
+    },
+    "subreddit": {
+      "header": "r/SplitSecond",
+      "p": "這個專案的靈感來源，是一個社群為一款被低估的賽車遊戲每週舉辦挑戰賽"
     }
   },
   "changeLanguage": "改變語言",
