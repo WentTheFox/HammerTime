@@ -41,6 +41,14 @@
     "textColor": {
       "header": "Rebane 的<1>彩色</1>文本生成器",
       "p": "一个简单的应用，使用 ANSI 颜色代码创建带颜色文本的 Discord 消息"
+    },
+    "betaSite": {
+      "header": "HammerTime 测试版网站",
+      "p": "最新的网站版本，带有管理 Discord 机器人设置的功能"
+    },
+    "subreddit": {
+      "header": "r/SplitSecond",
+      "p": "这个Reddit社群讨论一款好玩不火的赛车游戏，其举办的每周挑战赛是本项目的创作灵感"
     }
   },
   "changeLanguage": "更改语言",
