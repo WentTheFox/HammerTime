@@ -41,6 +41,14 @@
     "textColor": {
       "header": "Rebane'in <1>Renkli</1> Metin Oluşturucusu",
       "p": "ANSI renk kodlarını kullanarak renkli Discord mesajları oluşturan basit bir uygulama"
+    },
+    "betaSite": {
+      "header": "HammerTime Beta Web Sitesi",
+      "p": "En son web sitesi sürümü, ayrıca uygulama ayarlarınızı yönetmenizi sağlar"
+    },
+    "subreddit": {
+      "header": "r/SplitSecond",
+      "p": "Bu projenin oluşturulmasına ilham veren, yeterince takdir edilmemiş bir yarış oyunu için haftalık meydan okumalara ev sahipliği yapan topluluk"
     }
   },
   "changeLanguage": "Dili değiştir",
