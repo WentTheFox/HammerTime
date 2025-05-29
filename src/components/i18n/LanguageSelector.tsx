@@ -92,7 +92,7 @@ export const LanguageSelector: FC = () => {
                   dir={getDirAttribute(key as AvailableLanguage)}
                   leftIcon={<LanguageFlag language={value} />}
                   rightIcon={
-                    !getIsTranslationComplete(languageCompletionData) && !noTranslationsNeededLocales.has(language) ? (
+                    !getIsTranslationComplete(languageCompletionData) && !noTranslationsNeededLocales.has(key) ? (
                       <Text color="green">
                         <FontAwesomeIcon icon="life-ring" />
                       </Text>
