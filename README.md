@@ -168,6 +168,7 @@ English and Hungarian translations have been included, so no translators will be
   - [Alexander](https://crowdin.com/profile/Mr.Shad)
   - [Aligatoor](https://crowdin.com/profile/Aligatoor)
   - [Arantir Reinhold](https://crowdin.com/profile/arantirrein)
+  - [cfif126](https://crowdin.com/profile/cfif126)
   - [Dead3XD](https://crowdin.com/profile/Dead3XD)
   - [Feor](https://crowdin.com/profile/EL0nMusk)
   - [GameHacker](https://crowdin.com/profile/GameHacker)

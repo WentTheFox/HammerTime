@@ -559,6 +559,10 @@
       "username": "Gamer_Yaroslaw",
       "avatarUrl": "https://crowdin-static.cf-downloads.crowdin.com/avatar/17111570/medium/90104c0bf590e20982b84141dfbca253.jpeg",
       "fullName": "Кухарчук Ярослав"
+    },
+    "17136840": {
+      "username": "cfif126",
+      "avatarUrl": "https://crowdin-static.cf-downloads.crowdin.com/avatar/17136840/medium/78edae24163b25d912524a77cb3468c5.jpg"
     }
   },
   "languages": {
@@ -907,8 +911,8 @@
         "16601907"
       ],
       "progress": {
-        "approval": 90,
-        "translation": 90
+        "approval": 100,
+        "translation": 100
       }
     },
     "ru": {
@@ -921,6 +925,7 @@
         "14880978",
         "12500432",
         "14318252",
+        "17136840",
         "15196324",
         "14491318",
         "16655307",
@@ -933,8 +938,8 @@
         "12773366"
       ],
       "progress": {
-        "approval": 90,
-        "translation": 90
+        "approval": 100,
+        "translation": 100
       }
     },
     "sr": {
