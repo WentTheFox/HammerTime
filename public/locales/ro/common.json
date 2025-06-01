@@ -41,6 +41,14 @@
     "textColor": {
       "header": "Generatorul de text <1>Colorat</1> al lui Rebane",
       "p": "O aplicație simplă care creează mesaje Discord colorate folosind coduri de culoare ANSI"
+    },
+    "betaSite": {
+      "header": "Site-ul web HammerTime Beta",
+      "p": "Cea mai recentă versiune a site-ului web vă permite, de asemenea, să gestionați setările aplicației"
+    },
+    "subreddit": {
+      "header": "r/SplitSecond",
+      "p": "Comunitatea care organizează provocări săptămânale pentru un joc de curse subestimat care a inspirat crearea acestui proiect"
     }
   },
   "changeLanguage": "Schimbă limba",
