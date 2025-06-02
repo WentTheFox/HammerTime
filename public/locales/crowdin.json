@@ -307,6 +307,11 @@
       "username": "notlin4",
       "avatarUrl": "https://crowdin-static.cf-downloads.crowdin.com/avatar/15434450/medium/bf2311cb92f429b2420bf4cbba2e5124.png"
     },
+    "15453302": {
+      "username": "XXL_Steve",
+      "avatarUrl": "https://crowdin-static.cf-downloads.crowdin.com/avatar/15453302/medium/d759f9ec680f825d76efb956f3c5c0bb.png",
+      "fullName": "XXL Steve"
+    },
     "15497858": {
       "username": "111More1",
       "avatarUrl": "https://crowdin-static.cf-downloads.crowdin.com/avatar/15497858/medium/f5e25458a9c752ff23e270d4adee80f9.png",
@@ -563,6 +568,11 @@
     "17136840": {
       "username": "cfif126",
       "avatarUrl": "https://crowdin-static.cf-downloads.crowdin.com/avatar/17136840/medium/78edae24163b25d912524a77cb3468c5.jpg"
+    },
+    "17138010": {
+      "username": "Rosaalita",
+      "avatarUrl": "https://crowdin-static.cf-downloads.crowdin.com/avatar/17138010/medium/16b420bf3e34b1604ea049c3746a55e6.png",
+      "fullName": "Rosaa Litaa"
     }
   },
   "languages": {
@@ -696,6 +706,7 @@
         "14840926",
         "13466537",
         "15205466",
+        "17138010",
         "15263324",
         "15066243",
         "13898663",
@@ -703,11 +714,12 @@
         "15845459",
         "16611155",
         "16629243",
-        "16723857"
+        "16723857",
+        "15453302"
       ],
       "progress": {
-        "approval": 90,
-        "translation": 90
+        "approval": 100,
+        "translation": 100
       }
     },
     "he": {

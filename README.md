@@ -93,10 +93,12 @@ English and Hungarian translations have been included, so no translators will be
   - [M4gicalCat](https://crowdin.com/profile/M4gicalCat)
   - [Malalia Mimi](https://crowdin.com/profile/MialyMusic)
   - [Ouiouibaguette](https://crowdin.com/profile/Ouiouibaguette)
+  - [Rosaa Litaa](https://crowdin.com/profile/Rosaalita)
   - [sivelswhy](https://crowdin.com/profile/sivelswhy)
   - [Théo Navas](https://crowdin.com/profile/GrifGrif)
   - [ValouFCH](https://crowdin.com/profile/ValouFCH)
   - [Veivneorul](https://crowdin.com/profile/Veivneorul)
+  - [XXL Steve](https://crowdin.com/profile/XXL_Steve)
 - 🇩🇪 German
   - [Carlos Diener](https://crowdin.com/profile/carlos.diener)
   - [Fabian9799](https://crowdin.com/profile/Fabian9799)
