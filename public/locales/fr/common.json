@@ -1,5 +1,5 @@
 {
-  "seoDescription": "Générer des indicateurs d'horodatage pour les messages discord",
+  "seoDescription": "Générez des indicateurs d'horodatage pour les messages Discord",
   "howTo": "Choisissez une date, copiez l'horodatage désiré qui se situe dans la colonne \"{{syntaxColName}}\", ensuite collez le ou vous le souhaitez dans votre message. Le résultat sera un \"timestamp\" dynamique qui s'affichera différemment pour les gens suivant leur fuseau horaire.",
   "input": {
     "timezone": "Fuseau horaire",
@@ -41,6 +41,14 @@
     "textColor": {
       "header": "Le générateur de texte <1>coloré</1> de Rebane",
       "p": "Une app simple qui crée des messages Discord colorés grâce aux codes couleur ANSI"
+    },
+    "betaSite": {
+      "header": "Site Web bêta de HammerTime",
+      "p": "Dernière version du site web, qui vous permet également de gérer les paramètres de votre application"
+    },
+    "subreddit": {
+      "header": "r/SplitSecond",
+      "p": "La communauté organise des défis hebdomadaires pour un jeu de course méconnu qui a inspiré la création de ce projet"
     }
   },
   "changeLanguage": "Changer la langue",
