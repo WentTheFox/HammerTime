@@ -151,7 +151,7 @@
     },
     "14673608": {
       "username": "C.Ezra.M",
-      "avatarUrl": "https://crowdin-static.cf-downloads.crowdin.com/avatar/14673608/medium/39dc654d4a7ce4d578e063d9dd9a27c5.png",
+      "avatarUrl": "https://crowdin-static.cf-downloads.crowdin.com/avatar/14673608/medium/efabe4b051700d86e1d7aaa137c69808.png",
       "fullName": "Wojciech Marzec"
     },
     "14699026": {
@@ -311,11 +311,6 @@
       "username": "XXL_Steve",
       "avatarUrl": "https://crowdin-static.cf-downloads.crowdin.com/avatar/15453302/medium/d759f9ec680f825d76efb956f3c5c0bb.png",
       "fullName": "XXL Steve"
-    },
-    "15497858": {
-      "username": "111More1",
-      "avatarUrl": "https://crowdin-static.cf-downloads.crowdin.com/avatar/15497858/medium/f5e25458a9c752ff23e270d4adee80f9.png",
-      "fullName": "ඞ111More1ඞ"
     },
     "15514192": {
       "username": "unpredictable",
@@ -573,6 +568,20 @@
       "username": "Rosaalita",
       "avatarUrl": "https://crowdin-static.cf-downloads.crowdin.com/avatar/17138010/medium/16b420bf3e34b1604ea049c3746a55e6.png",
       "fullName": "Rosaa Litaa"
+    },
+    "17146676": {
+      "username": "ekidoxx",
+      "avatarUrl": "https://crowdin-static.cf-downloads.crowdin.com/avatar/17146676/medium/b8b933d286c6d1639dc3e85762a7ed5e.png",
+      "fullName": "Piotr G."
+    },
+    "17147262": {
+      "username": "Noveak-Prime",
+      "avatarUrl": "https://crowdin-static.cf-downloads.crowdin.com/avatar/17147262/medium/0cfe49c75987f66a8107bc00e890fb84.png",
+      "fullName": "Noveak"
+    },
+    "17151532": {
+      "username": "StudentApcaustsy",
+      "avatarUrl": "https://crowdin-static.cf-downloads.crowdin.com/avatar/17151532/medium/4617384eb1ab5d098bf994c2eeb940e0_default.png"
     }
   },
   "languages": {
@@ -600,7 +609,6 @@
       "translatorIds": [
         "15659129",
         "13533384",
-        "15497858",
         "16655625"
       ],
       "progress": {
@@ -701,7 +709,6 @@
     "fr": {
       "translatorIds": [
         "13533384",
-        "15497858",
         "16601907",
         "14840926",
         "13466537",
@@ -725,7 +732,6 @@
     "he": {
       "translatorIds": [
         "13533384",
-        "15497858",
         "15269410",
         "14240276",
         "16669695"
@@ -789,7 +795,6 @@
     "ja": {
       "translatorIds": [
         "14469636",
-        "15497858",
         "15218810",
         "15980591",
         "16187048",
@@ -803,7 +808,6 @@
     "ko": {
       "translatorIds": [
         "14469636",
-        "15497858",
         "14531480",
         "15404404",
         "14153733"
@@ -816,7 +820,6 @@
     "lt": {
       "translatorIds": [
         "13533384",
-        "15497858",
         "15270240",
         "14785728",
         "16654645"
@@ -881,14 +884,15 @@
     "pl": {
       "translatorIds": [
         "14844020",
+        "17146676",
         "14031231",
         "14428048",
         "16172948",
         "14673608"
       ],
       "progress": {
-        "approval": 90,
-        "translation": 90
+        "approval": 100,
+        "translation": 100
       }
     },
     "pt-BR": {
@@ -897,17 +901,17 @@
         "14830652",
         "13110344",
         "13379819",
-        "12931321"
+        "12931321",
+        "17151532"
       ],
       "progress": {
-        "approval": 90,
-        "translation": 90
+        "approval": 95,
+        "translation": 95
       }
     },
     "pt": {
       "translatorIds": [
         "15659129",
-        "15497858",
         "15281318",
         "16669695",
         "15682999"
@@ -930,7 +934,6 @@
     "ru": {
       "translatorIds": [
         "13533384",
-        "15497858",
         "15276044",
         "16601907",
         "15276232",
@@ -966,24 +969,23 @@
     "sv": {
       "translatorIds": [
         "13533384",
-        "15497858",
         "25282",
         "15221880",
         "15692641",
         "15276254",
         "14428048",
+        "17147262",
         "16622315",
         "16737021"
       ],
       "progress": {
-        "approval": 90,
-        "translation": 90
+        "approval": 94,
+        "translation": 94
       }
     },
     "th": {
       "translatorIds": [
-        "15514192",
-        "15497858"
+        "15514192"
       ],
       "progress": {
         "approval": 100,
@@ -1004,7 +1006,6 @@
     },
     "uk": {
       "translatorIds": [
-        "15497858",
         "15276044",
         "16601907",
         "17111570",
@@ -1055,7 +1056,6 @@
     "zh-TW": {
       "translatorIds": [
         "15258052",
-        "15497858",
         "15434450",
         "15980591"
       ],

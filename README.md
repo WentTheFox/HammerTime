@@ -153,6 +153,7 @@ English and Hungarian translations have been included, so no translators will be
   - [Luna A](https://crowdin.com/profile/LumiKitten)
   - [meeekos](https://crowdin.com/profile/meeekos)
   - [MinerPL](https://github.com/minerpl)
+  - [Piotr G.](https://crowdin.com/profile/ekidoxx)
   - [stha](https://crowdin.com/profile/sthakrk)
   - [Wojciech Marzec](https://crowdin.com/profile/C.Ezra.M)
 - 🇵🇹 Portuguese
@@ -165,6 +166,7 @@ English and Hungarian translations have been included, so no translators will be
   - [Eduardo](https://crowdin.com/profile/Nirewen)
   - [leo0six](https://crowdin.com/profile/leo0six)
   - [ShadowG](https://crowdin.com/profile/ShadowG)
+  - [StudentApcaustsy](https://crowdin.com/profile/StudentApcaustsy)
 - 🇷🇴 Romanian: [mihai](https://crowdin.com/profile/mihaiofficialRO)
 - 🇷🇺 Russian
   - [Alexander](https://crowdin.com/profile/Mr.Shad)
@@ -195,6 +197,7 @@ English and Hungarian translations have been included, so no translators will be
   - [Liggliluff](https://github.com/Liggliluff)
   - [Ludwig Lannebro](https://crowdin.com/profile/lannebroludwig)
   - [Luna A](https://crowdin.com/profile/LumiKitten)
+  - [Noveak](https://crowdin.com/profile/Noveak-Prime)
   - [Patrick Tobias](https://crowdin.com/profile/patricktobias)
   - [Stryxen](https://crowdin.com/profile/Stryxen)
   - [tunket](https://crowdin.com/profile/tunket)
