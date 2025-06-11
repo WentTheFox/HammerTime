@@ -41,6 +41,14 @@
     "textColor": {
       "header": "Generator <1>Kolorowego</1> tekstu Rebane'a",
       "p": "Prosta aplikacja do tworzenia kolorowych wiadomości na Discord przy użyciu kodów kolorów ANSI"
+    },
+    "betaSite": {
+      "header": "Wersja beta strony HammerTime",
+      "p": "Najnowsza wersja strony internetowej, umożliwia również zarządzanie ustawieniami aplikacji"
+    },
+    "subreddit": {
+      "header": "r/SplitSecond",
+      "p": "Społeczność organizująca cotygodniowe wyzwania dla niedocenianej gry wyścigowej, która zainspirowała powstanie tego projektu"
     }
   },
   "changeLanguage": "Zmień język",
