@@ -582,6 +582,16 @@
     "17151532": {
       "username": "StudentApcaustsy",
       "avatarUrl": "https://crowdin-static.cf-downloads.crowdin.com/avatar/17151532/medium/4617384eb1ab5d098bf994c2eeb940e0_default.png"
+    },
+    "17155466": {
+      "username": "SirRohan",
+      "avatarUrl": "https://crowdin-static.cf-downloads.crowdin.com/avatar/17155466/medium/93cfa9295793ab66664b602b5de18aea.png",
+      "fullName": "Rohan"
+    },
+    "17159146": {
+      "username": "vinny7x",
+      "avatarUrl": "https://crowdin-static.cf-downloads.crowdin.com/avatar/17159146/medium/a29ad481201a2fba5b59a24197326d73.jpeg",
+      "fullName": "Vinícios Mendes"
     }
   },
   "languages": {
@@ -874,11 +884,12 @@
     "nl": {
       "translatorIds": [
         "13533384",
-        "14730100"
+        "14730100",
+        "17155466"
       ],
       "progress": {
-        "approval": 90,
-        "translation": 90
+        "approval": 95,
+        "translation": 95
       }
     },
     "pl": {
@@ -901,12 +912,13 @@
         "14830652",
         "13110344",
         "13379819",
+        "17159146",
         "12931321",
         "17151532"
       ],
       "progress": {
-        "approval": 95,
-        "translation": 95
+        "approval": 100,
+        "translation": 100
       }
     },
     "pt": {

@@ -80,7 +80,9 @@ English and Hungarian translations have been included, so no translators will be
   - [jovictasor](https://crowdin.com/profile/jovictasor)
   - [Lennart Christiansen](https://crowdin.com/profile/LennartDenmark)
   - [MikeyDK](https://crowdin.com/profile/MikeyDK)
-- 🇳🇱 Dutch: [Jesse](https://github.com/Jessuhh)
+- 🇳🇱 Dutch
+  - [Jesse](https://github.com/Jessuhh)
+  - [Rohan](https://crowdin.com/profile/SirRohan)
 - 🇫🇮 Finnish
   - [Cookie](https://crowdin.com/profile/cookiethegamer33)
   - [Deadly dead](https://crowdin.com/profile/cricribebe)
@@ -167,6 +169,7 @@ English and Hungarian translations have been included, so no translators will be
   - [leo0six](https://crowdin.com/profile/leo0six)
   - [ShadowG](https://crowdin.com/profile/ShadowG)
   - [StudentApcaustsy](https://crowdin.com/profile/StudentApcaustsy)
+  - [Vinícios Mendes](https://crowdin.com/profile/vinny7x)
 - 🇷🇴 Romanian: [mihai](https://crowdin.com/profile/mihaiofficialRO)
 - 🇷🇺 Russian
   - [Alexander](https://crowdin.com/profile/Mr.Shad)
