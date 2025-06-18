@@ -125,12 +125,12 @@ English and Hungarian translations have been included, so no translators will be
 - 🇯🇵 Japanese
   - [eai04191](https://crowdin.com/profile/eai04191)
   - [ms.investigator](https://crowdin.com/profile/ms.)
-  - [Phrygia / sjk](https://github.com/sjkim04)
+  - [Phrygia](https://github.com/sjkim04)
   - [sakana](https://crowdin.com/profile/sakana0580)
   - [TheOnlyRAK](https://crowdin.com/profile/TheOnlyRAK)
 - 🇰🇷 Korean
   - [Bin](https://crowdin.com/profile/cheesepickle12345678)
-  - [Phrygia / sjk](https://github.com/sjkim04)
+  - [Phrygia](https://github.com/sjkim04)
   - [SkyStorage\_](https://crowdin.com/profile/SkyStorage_)
   - [미르냥](https://crowdin.com/profile/Mirnyang)
 - 🇱🇻 Latvian
@@ -169,7 +169,7 @@ English and Hungarian translations have been included, so no translators will be
   - [leo0six](https://crowdin.com/profile/leo0six)
   - [ShadowG](https://crowdin.com/profile/ShadowG)
   - [StudentApcaustsy](https://crowdin.com/profile/StudentApcaustsy)
-  - [Vinícios Mendes](https://crowdin.com/profile/vinny7x)
+  - [Vinny7x](https://crowdin.com/profile/vinny7x)
 - 🇷🇴 Romanian: [mihai](https://crowdin.com/profile/mihaiofficialRO)
 - 🇷🇺 Russian
   - [Alexander](https://crowdin.com/profile/Mr.Shad)
