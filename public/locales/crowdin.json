@@ -260,7 +260,7 @@
     },
     "15258052": {
       "username": "jckcr",
-      "avatarUrl": "https://crowdin-static.cf-downloads.crowdin.com/avatar/15258052/medium/8b9ed9fceb2db497212c6340c96e6e2d.png",
+      "avatarUrl": "https://crowdin-static.cf-downloads.crowdin.com/avatar/15258052/medium/e6643a650c986adbe9f90b2a91934a0a.png",
       "fullName": "Jackie"
     },
     "15263324": {
@@ -787,8 +787,8 @@
         "13533384"
       ],
       "progress": {
-        "approval": 90,
-        "translation": 90
+        "approval": 100,
+        "translation": 100
       }
     },
     "it": {
