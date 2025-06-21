@@ -41,6 +41,14 @@
     "textColor": {
       "header": "Generator Teks <1>Berwarna</1> Rebane",
       "p": "Aplikasi sederhana yang membuat pesan Discord berwarna menggunakan kode warna ANSI"
+    },
+    "betaSite": {
+      "header": "Situs Web HammerTime Beta",
+      "p": "Versi situs web terbaru, juga mengizinkan Anda mengelola pengaturan aplikasi Anda"
+    },
+    "subreddit": {
+      "header": "r/SplitSecond",
+      "p": "Komunitas yang menyelenggarakan tantangan mingguan untuk game balap yang kurang dikenal yang menginspirasi terciptanya proyek ini"
     }
   },
   "changeLanguage": "Ganti bahasa",
