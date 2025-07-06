@@ -41,6 +41,14 @@
     "textColor": {
       "header": "Rebane's <1>gekleurde</1> tekst generator",
       "p": "Een eenvoudige app die gekleurde Discord-berichten maakt met ANSI-kleurcodes"
+    },
+    "betaSite": {
+      "header": "HammerTime Beta Website",
+      "p": "Nieuwste websiteversie, waarmee je ook je Discord bot instellingen kunt beheren"
+    },
+    "subreddit": {
+      "header": "r/SplitSecond",
+      "p": "De community houdt wekelijkse challenges voor een ondergewaardeerde race game, welke de inspiratie was voor dit project"
     }
   },
   "changeLanguage": "Wijzig taal",
