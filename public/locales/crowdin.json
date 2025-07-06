@@ -592,6 +592,23 @@
       "username": "vinny7x",
       "avatarUrl": "https://crowdin-static.cf-downloads.crowdin.com/avatar/17159146/medium/a29ad481201a2fba5b59a24197326d73.jpeg",
       "fullName": "Vinny7x"
+    },
+    "17173740": {
+      "username": "1soldier1pro1",
+      "avatarUrl": "https://crowdin-static.cf-downloads.crowdin.com/avatar/17173740/medium/7ca579658372331e701eecfc335b83ef.png"
+    },
+    "17179168": {
+      "username": "MadLad255",
+      "avatarUrl": "https://crowdin-static.cf-downloads.crowdin.com/avatar/17179168/medium/dbfa13720a350006d1d50f2ec174227b_default.png"
+    },
+    "17190310": {
+      "username": "chiatan1006",
+      "avatarUrl": "https://crowdin-static.cf-downloads.crowdin.com/avatar/17190310/medium/2a4874e89096424efb4668e84b1a066a.jpeg",
+      "fullName": "ちあたん"
+    },
+    "17197940": {
+      "username": "undefined9651",
+      "avatarUrl": "https://crowdin-static.cf-downloads.crowdin.com/avatar/17197940/medium/84b3388369ae207066b049021ebcfe55.jpeg"
     }
   },
   "languages": {
@@ -808,7 +825,9 @@
         "15218810",
         "15980591",
         "16187048",
-        "13047240"
+        "13047240",
+        "17190310",
+        "17197940"
       ],
       "progress": {
         "approval": 90,
@@ -885,11 +904,13 @@
       "translatorIds": [
         "13533384",
         "14730100",
-        "17155466"
+        "17173740",
+        "17155466",
+        "17179168"
       ],
       "progress": {
-        "approval": 95,
-        "translation": 95
+        "approval": 100,
+        "translation": 100
       }
     },
     "pl": {
@@ -929,8 +950,8 @@
         "15682999"
       ],
       "progress": {
-        "approval": 90,
-        "translation": 90
+        "approval": 100,
+        "translation": 100
       }
     },
     "ro": {
