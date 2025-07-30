@@ -41,6 +41,14 @@
     "textColor": {
       "header": "Rebane님의 <1>컬러</1> 텍스트 생성기",
       "p": "ANSI 컬러 코드를 사용해서 Discord용 컬러 텍스트를 생성하는 간단한 앱"
+    },
+    "betaSite": {
+      "header": "HammerTime 베타 웹사이트",
+      "p": "최신 웹사이트 버전을 통해 앱 설정도 관리할 수 있습니다"
+    },
+    "subreddit": {
+      "header": "r/SplitSecond",
+      "p": "이 프로젝트 제작에 영감을 준 저평가된 레이싱 게임들을 위한 주간 챌린지를 개최하는 커뮤니티"
     }
   },
   "changeLanguage": "언어 변경",
