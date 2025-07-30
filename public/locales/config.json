@@ -73,7 +73,10 @@
       "name": "Czech",
       "nativeName": "Čeština",
       "countryCode": "CZ",
-      "emoji": "🇨🇿"
+      "emoji": "🇨🇿",
+      "creditOverrides": {
+        "17202730": null
+      }
     },
     "nl": {
       "name": "Dutch",
@@ -399,7 +402,8 @@
       "countryCode": "UA",
       "emoji": "🇺🇦",
       "creditOverrides": {
-        "15497858": null
+        "15497858": null,
+        "17202730": null
       }
     },
     "ur": {

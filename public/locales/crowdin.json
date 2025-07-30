@@ -317,6 +317,11 @@
       "avatarUrl": "https://crowdin-static.cf-downloads.crowdin.com/avatar/15514192/medium/375165879a1d44129a06d1c635976680.png",
       "fullName": "Rukchad Wongprayoon"
     },
+    "15547841": {
+      "username": "whiteblankzero",
+      "avatarUrl": "https://crowdin-static.cf-downloads.crowdin.com/avatar/15547841/medium/3e04c2528054267cd9f0691c8df3d56c.png",
+      "fullName": "공백"
+    },
     "15557093": {
       "username": "htcqqcomm",
       "avatarUrl": "https://crowdin-static.cf-downloads.crowdin.com/avatar/15557093/medium/604416c4d8e214e4982b55fa1bef71c0.png",
@@ -555,6 +560,10 @@
       "avatarUrl": "https://crowdin-static.cf-downloads.crowdin.com/avatar/16939833/medium/7d09f6c5d42586a5343236a7f9c915b6.jpeg",
       "fullName": "Faer Yili"
     },
+    "17087468": {
+      "username": "Shiny4649",
+      "avatarUrl": "https://crowdin-static.cf-downloads.crowdin.com/avatar/17087468/medium/6f7177038d1268500e2099a337d8d745.jpeg"
+    },
     "17111570": {
       "username": "Gamer_Yaroslaw",
       "avatarUrl": "https://crowdin-static.cf-downloads.crowdin.com/avatar/17111570/medium/90104c0bf590e20982b84141dfbca253.jpeg",
@@ -609,6 +618,30 @@
     "17197940": {
       "username": "undefined9651",
       "avatarUrl": "https://crowdin-static.cf-downloads.crowdin.com/avatar/17197940/medium/84b3388369ae207066b049021ebcfe55.jpeg"
+    },
+    "17202730": {
+      "username": "O5",
+      "avatarUrl": "https://crowdin-static.cf-downloads.crowdin.com/avatar/17202730/medium/af8b8dbccfd97f2a1967719271f3b51e_default.png"
+    },
+    "17204632": {
+      "username": "sehoon.sese",
+      "avatarUrl": "https://crowdin-static.cf-downloads.crowdin.com/avatar/17204632/medium/f7019544760ff31075c97e7cb8031759.jpeg",
+      "fullName": "Sehoon Park"
+    },
+    "17227106": {
+      "username": "jayden0108lee",
+      "avatarUrl": "https://crowdin-static.cf-downloads.crowdin.com/avatar/17227106/medium/af35f1a2c7d9f4248b6430a28805110f.png",
+      "fullName": "pinedapple (pinedapple)"
+    },
+    "17233228": {
+      "username": "Verdstela",
+      "avatarUrl": "https://crowdin-static.cf-downloads.crowdin.com/avatar/17233228/medium/1eca8cf6140d35625bb3bf82d3f673aa.jpeg",
+      "fullName": "Stela Verd"
+    },
+    "17241656": {
+      "username": "Bala_de_plata",
+      "avatarUrl": "https://crowdin-static.cf-downloads.crowdin.com/avatar/17241656/medium/458a40b3700285afb269c19ac80be604.jpeg",
+      "fullName": "LAU Regi"
     }
   },
   "languages": {
@@ -636,11 +669,12 @@
       "translatorIds": [
         "15659129",
         "13533384",
-        "16655625"
+        "16655625",
+        "17241656"
       ],
       "progress": {
-        "approval": 90,
-        "translation": 90
+        "approval": 100,
+        "translation": 100
       }
     },
     "cs": {
@@ -648,6 +682,7 @@
         "15709863",
         "14311950",
         "15193976",
+        "17202730",
         "15044779"
       ],
       "progress": {
@@ -825,25 +860,29 @@
         "15218810",
         "15980591",
         "16187048",
+        "17087468",
         "13047240",
         "17190310",
         "17197940"
       ],
       "progress": {
-        "approval": 90,
-        "translation": 90
+        "approval": 100,
+        "translation": 100
       }
     },
     "ko": {
       "translatorIds": [
         "14469636",
         "14531480",
+        "15547841",
         "15404404",
-        "14153733"
+        "14153733",
+        "17204632",
+        "17227106"
       ],
       "progress": {
-        "approval": 90,
-        "translation": 90
+        "approval": 100,
+        "translation": 100
       }
     },
     "lt": {
@@ -1041,6 +1080,7 @@
       "translatorIds": [
         "15276044",
         "16601907",
+        "17202730",
         "17111570",
         "14495070",
         "16036800",

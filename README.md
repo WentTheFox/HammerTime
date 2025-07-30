@@ -53,6 +53,7 @@ English and Hungarian translations have been included, so no translators will be
   - [Rxshi](https://crowdin.com/profile/Rxshi)
 - Catalan
   - [Casper](https://crowdin.com/profile/JajarGG)
+  - [LAU Regi](https://crowdin.com/profile/Bala_de_plata)
   - [Sr_Crix](https://crowdin.com/profile/Sr_Crix)
   - [sware](https://crowdin.com/profile/sware)
 - 🇨🇳 Chinese Simplified
@@ -129,13 +130,17 @@ English and Hungarian translations have been included, so no translators will be
   - [ms.investigator](https://crowdin.com/profile/ms.)
   - [Phrygia](https://github.com/sjkim04)
   - [sakana](https://crowdin.com/profile/sakana0580)
+  - [Shiny4649](https://crowdin.com/profile/Shiny4649)
   - [TheOnlyRAK](https://crowdin.com/profile/TheOnlyRAK)
   - [undefined9651](https://crowdin.com/profile/undefined9651)
   - [ちあたん](https://crowdin.com/profile/chiatan1006)
 - 🇰🇷 Korean
   - [Bin](https://crowdin.com/profile/cheesepickle12345678)
   - [Phrygia](https://github.com/sjkim04)
+  - [pinedapple (pinedapple)](https://crowdin.com/profile/jayden0108lee)
+  - [Sehoon Park](https://crowdin.com/profile/sehoon.sese)
   - [SkyStorage\_](https://crowdin.com/profile/SkyStorage_)
+  - [공백](https://crowdin.com/profile/whiteblankzero)
   - [미르냥](https://crowdin.com/profile/Mirnyang)
 - 🇱🇻 Latvian
   - [Casper](https://crowdin.com/profile/JajarGG)
