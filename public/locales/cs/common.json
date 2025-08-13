@@ -41,6 +41,14 @@
     "textColor": {
       "header": "Generátor <1>barevného</1> textu od společnosti Rebane",
       "p": "Jednoduchá aplikace, která vytváří barevné zprávy Discord pomocí barevných kódů ANSI"
+    },
+    "betaSite": {
+      "header": "HammerTime Beta Stránka",
+      "p": "Nejnovější verze stránky vám také umožní upravit nastavení aplikace"
+    },
+    "subreddit": {
+      "header": "r/SplitSecond",
+      "p": "Komunita pořádající týdenní výzvy pro podceňovanou závodní hru, která inspirovala vznik tohoto projektu"
     }
   },
   "changeLanguage": "Změnit jazyk",
