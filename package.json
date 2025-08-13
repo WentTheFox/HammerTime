@@ -59,7 +59,7 @@
     "@types/webpack-env": "^1.15.3",
     "@typescript-eslint/eslint-plugin": "^5.59.11",
     "@typescript-eslint/parser": "^5.59.11",
-    "canvas": "^2.10.2",
+    "canvas": "^3.1.2",
     "concurrently": "^7.6.0",
     "dotenv": "^16.4.5",
     "eslint": "^8.42.0",
