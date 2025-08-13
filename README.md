@@ -75,6 +75,7 @@ English and Hungarian translations have been included, so no translators will be
 - 🇨🇿 Czech
   - [Blurplix](https://crowdin.com/profile/Blurplix)
   - [HolyRadek](https://crowdin.com/profile/holyradek)
+  - [Keša mot](https://crowdin.com/profile/kesamott.6534)
   - [klauny](https://crowdin.com/profile/klauny)
   - [イーテルニティ ☄️](https://crowdin.com/profile/Ethxrnity)
 - 🇩🇰 Danish
