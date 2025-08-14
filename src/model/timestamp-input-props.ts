@@ -11,7 +11,6 @@ export interface TimestampInputProps {
   locale: string;
   dateString: string;
   timeString: string;
-  timezone?: string;
   language: string;
   inputSize: MantineSize;
   fixedTimestamp: boolean;

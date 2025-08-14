@@ -94,7 +94,10 @@ export const IndexPage: NextPage<IndexPageProps> = ({ tzNames }) => {
     }
     return null;
   }, [timestampQuery]);
-  const [timestamp, setTimestamp] = useState<Moment | null>(null);
+  const timestamp = useMemo<Moment | null>(() => {
+    if (!dateString || !timeString) return null;
+    return moment.tz(`${dateString}T${timeString}`, `${isoParsingDateFormat}T${isoTimeFormat}`, safeTimezone);
+  }, [dateString, safeTimezone, timeString]);
   const timestampInSecondsString = useMemo(() => (timestamp ? timestamp?.unix().toString() : '0'), [timestamp]);
 
   const handleTimezoneChange = useMemo(
@@ -150,22 +153,17 @@ export const IndexPage: NextPage<IndexPageProps> = ({ tzNames }) => {
       return;
     }
     if (typeof initialTimestamp === 'number') {
-      const initialDate = moment.unix(initialTimestamp).utc(false);
+      const initialDate = moment.unix(initialTimestamp).tz(safeTimezone);
       if (initialDate.isValid()) {
-        clientTimezone = 'Etc/GMT';
+        clientTimezone = safeTimezone;
         clientMoment = initialDate;
       }
     }
     if (!clientMoment) clientMoment = moment().seconds(0).milliseconds(0);
     const formatted = momentToInputValue(clientMoment);
-    handleDateTimeChange(formatted);
-    if (clientTimezone) handleTimezoneChange(clientTimezone);
-  }, [dateString, handleDateTimeChange, handleTimezoneChange, initialTimestamp, router.isReady, timeString]);
-
-  useEffect(() => {
-    if (!dateString || !timeString) return;
-    setTimestamp(moment.tz(`${dateString}T${timeString}`, `${isoParsingDateFormat}T${isoTimeFormat}`, safeTimezone));
-  }, [dateString, safeTimezone, timeString, timezoneQuery]);
+    setDateTimeString(formatted);
+    if (clientTimezone) setTimezone(clientTimezone);
+  }, [dateString, initialTimestamp, router.isReady, safeTimezone, setDateTimeString, setTimezone, timeString]);
 
   const fixedTimestamp = initialTimestamp !== null;
   const { lockButtonTooltipText, setTimeButtonTooltipText, leadText } = useMemo(() => {
@@ -192,7 +190,11 @@ export const IndexPage: NextPage<IndexPageProps> = ({ tzNames }) => {
               </Button>
             </Tooltip>{' '}
             <LockButton
-              href={fixedTimestamp ? '/' : `/?${TS_QUERY_PARAM}=${timestampInSecondsString}`}
+              href={
+                fixedTimestamp
+                  ? `/?${TZ_QUERY_PARAM}=${safeTimezone}`
+                  : `/?${TS_QUERY_PARAM}=${timestampInSecondsString}&${TZ_QUERY_PARAM}=${safeTimezone}`
+              }
               size={size}
               lockButtonTooltipText={lockButtonTooltipText}
               fixedTimestamp={fixedTimestamp}
@@ -200,7 +202,7 @@ export const IndexPage: NextPage<IndexPageProps> = ({ tzNames }) => {
             {children}
           </>
         ),
-    [fixedTimestamp, lockButtonTooltipText, setTimeButtonTooltipText, setTimeNow, timestampInSecondsString],
+    [fixedTimestamp, lockButtonTooltipText, safeTimezone, setTimeButtonTooltipText, setTimeNow, timestampInSecondsString],
   );
 
   const dateProviderSettings: DatesProviderSettings = useMemo(() => {

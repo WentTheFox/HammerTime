@@ -92,7 +92,7 @@ export const TimestampInputCustom: FC<TimestampInputProps> = ({
         value={date}
         id={dateTimeInputId}
         onChange={handleDateTimeChange}
-        readOnly={fixedTimestamp}
+        disabled={fixedTimestamp}
         size={inputSize}
         className={styles['combined-input']}
         icon={<IconRenderer icons={dateTimeInputIcons} />}
