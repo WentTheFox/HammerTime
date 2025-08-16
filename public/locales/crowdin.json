@@ -652,6 +652,16 @@
       "username": "kesamott.6534",
       "avatarUrl": "https://crowdin-static.cf-downloads.crowdin.com/avatar/17258246/medium/57b680b960590572165ee2afc1dc3655.png",
       "fullName": "Keša mot"
+    },
+    "17270872": {
+      "username": "jw6942460",
+      "avatarUrl": "https://crowdin-static.cf-downloads.crowdin.com/avatar/17270872/medium/c56ab470f41f103bbdb4dfbe828aca7c.png",
+      "fullName": "John Wick"
+    },
+    "17274016": {
+      "username": "lihaisapossu",
+      "avatarUrl": "https://crowdin-static.cf-downloads.crowdin.com/avatar/17274016/medium/b9fb74d054eb090d136618d46da605a9.jpeg",
+      "fullName": "nico"
     }
   },
   "languages": {
@@ -772,11 +782,13 @@
     "fi": {
       "translatorIds": [
         "16779295",
+        "17274016",
+        "17270872",
         "16812111"
       ],
       "progress": {
-        "approval": 42,
-        "translation": 42
+        "approval": 100,
+        "translation": 100
       }
     },
     "fr": {

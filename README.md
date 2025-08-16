@@ -90,6 +90,8 @@ English and Hungarian translations have been included, so no translators will be
 - 🇫🇮 Finnish
   - [Cookie](https://crowdin.com/profile/cookiethegamer33)
   - [Deadly dead](https://crowdin.com/profile/cricribebe)
+  - [John Wick](https://crowdin.com/profile/jw6942460)
+  - [nico](https://crowdin.com/profile/lihaisapossu)
 - 🇫🇷 French
   - [Alex6](https://crowdin.com/profile/Alex6_)
   - [Alexander](https://crowdin.com/profile/Mr.Shad)
