@@ -41,6 +41,14 @@
     "textColor": {
       "header": "Rebanes <1>farvede</1> tekstgenerator",
       "p": "En simpel app, der skaber farvede Discord beskeder ved hjælp af ANSI farvekoder"
+    },
+    "betaSite": {
+      "header": "HammerTime Beta Hjemmeside",
+      "p": "Seneste hjemmesideversion, der også lader dig styre dine app-indstillinger"
+    },
+    "subreddit": {
+      "header": "r/SplitSecond",
+      "p": "Fællesskabet, der er vært for ugentlige udfordringer til et undervurderet racerspil, som inspirerede til dette projekt"
     }
   },
   "changeLanguage": "Skift sprog",
