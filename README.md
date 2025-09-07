@@ -81,6 +81,7 @@ English and Hungarian translations have been included, so no translators will be
 - 🇩🇰 Danish
   - [jovictasor](https://crowdin.com/profile/jovictasor)
   - [Lennart Christiansen](https://crowdin.com/profile/LennartDenmark)
+  - [Lucas](https://crowdin.com/profile/LucasFromDK)
   - [MikeyDK](https://crowdin.com/profile/MikeyDK)
 - 🇳🇱 Dutch
   - [1soldier1pro1](https://crowdin.com/profile/1soldier1pro1)
@@ -91,7 +92,7 @@ English and Hungarian translations have been included, so no translators will be
   - [Cookie](https://crowdin.com/profile/cookiethegamer33)
   - [Deadly dead](https://crowdin.com/profile/cricribebe)
   - [John Wick](https://crowdin.com/profile/jw6942460)
-  - [nico](https://crowdin.com/profile/lihaisapossu)
+  - [lihaisapossu](https://crowdin.com/profile/lihaisapossu)
 - 🇫🇷 French
   - [Alex6](https://crowdin.com/profile/Alex6_)
   - [Alexander](https://crowdin.com/profile/Mr.Shad)
@@ -215,6 +216,7 @@ English and Hungarian translations have been included, so no translators will be
   - [Noveak](https://crowdin.com/profile/Noveak-Prime)
   - [Patrick Tobias](https://crowdin.com/profile/patricktobias)
   - [Stryxen](https://crowdin.com/profile/Stryxen)
+  - [swerocker gaming](https://crowdin.com/profile/swerocker1993)
   - [tunket](https://crowdin.com/profile/tunket)
 - 🇹🇭 Thai: [timelessnesses](https://github.com/timelessnesses)
 - 🇹🇷 Turkish
@@ -231,4 +233,6 @@ English and Hungarian translations have been included, so no translators will be
 - 🇵🇰 Urdu (Pakistan)
   - [Muhammad Dawood](https://crowdin.com/profile/Developer_X)
   - [muharslan](https://crowdin.com/profile/muharslan)
-- 🇻🇳 Vietnamese: [Quan](https://crowdin.com/profile/quanonthecob)
+- 🇻🇳 Vietnamese
+  - [Nguyễn Hoàng Long](https://crowdin.com/profile/fangcognosphere)
+  - [Quan](https://crowdin.com/profile/quanonthecob)

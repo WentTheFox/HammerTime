@@ -78,6 +78,11 @@
       "username": "sware",
       "avatarUrl": "https://crowdin-static.cf-downloads.crowdin.com/avatar/13533384/medium/3f23c22f45a145db5c2fb24ceb3df6e0.png"
     },
+    "13546673": {
+      "username": "LucasFromDK",
+      "avatarUrl": "https://crowdin-static.cf-downloads.crowdin.com/avatar/13546673/medium/7dfb9edc82de2edfa794bdbb716e6660.png",
+      "fullName": "Lucas"
+    },
     "13898663": {
       "username": "GrifGrif",
       "avatarUrl": "https://crowdin-static.cf-downloads.crowdin.com/avatar/13898663/medium/e31d444ee931ff2fab9ddea0a201c260.jpg",
@@ -660,8 +665,17 @@
     },
     "17274016": {
       "username": "lihaisapossu",
-      "avatarUrl": "https://crowdin-static.cf-downloads.crowdin.com/avatar/17274016/medium/b9fb74d054eb090d136618d46da605a9.jpeg",
-      "fullName": "nico"
+      "avatarUrl": "https://crowdin-static.cf-downloads.crowdin.com/avatar/17274016/medium/b9fb74d054eb090d136618d46da605a9.jpeg"
+    },
+    "17282346": {
+      "username": "swerocker1993",
+      "avatarUrl": "https://crowdin-static.cf-downloads.crowdin.com/avatar/17282346/medium/c1ff916ad8b5f7ffbd51499ebd205cce.png",
+      "fullName": "swerocker gaming"
+    },
+    "17285274": {
+      "username": "fangcognosphere",
+      "avatarUrl": "https://crowdin-static.cf-downloads.crowdin.com/avatar/17285274/medium/3c0db78106fe6086b8fe8cc923406276.png",
+      "fullName": "Nguyễn Hoàng Long"
     }
   },
   "languages": {
@@ -714,12 +728,13 @@
     "da": {
       "translatorIds": [
         "16066210",
+        "13546673",
         "12852355",
         "12426169"
       ],
       "progress": {
-        "approval": 90,
-        "translation": 90
+        "approval": 100,
+        "translation": 100
       }
     },
     "de": {
@@ -1070,12 +1085,13 @@
         "15276254",
         "14428048",
         "17147262",
+        "17282346",
         "16622315",
         "16737021"
       ],
       "progress": {
-        "approval": 94,
-        "translation": 94
+        "approval": 100,
+        "translation": 100
       }
     },
     "th": {
@@ -1127,11 +1143,12 @@
     "vi": {
       "translatorIds": [
         "16061216",
-        "16601907"
+        "16601907",
+        "17285274"
       ],
       "progress": {
-        "approval": 90,
-        "translation": 90
+        "approval": 95,
+        "translation": 95
       }
     },
     "zh": {
