@@ -676,6 +676,11 @@
       "username": "fangcognosphere",
       "avatarUrl": "https://crowdin-static.cf-downloads.crowdin.com/avatar/17285274/medium/3c0db78106fe6086b8fe8cc923406276.png",
       "fullName": "Nguyễn Hoàng Long"
+    },
+    "17322000": {
+      "username": "hvalomi",
+      "avatarUrl": "https://crowdin-static.cf-downloads.crowdin.com/avatar/17322000/medium/b117bdf14a784a7620ff69aeb53036de.jpeg",
+      "fullName": "Hvalomi"
     }
   },
   "languages": {
@@ -970,11 +975,12 @@
         "16466619",
         "16611703",
         "16773913",
+        "17322000",
         "16840813"
       ],
       "progress": {
         "approval": 90,
-        "translation": 90
+        "translation": 91
       }
     },
     "nl": {

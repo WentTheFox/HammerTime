@@ -156,6 +156,7 @@ English and Hungarian translations have been included, so no translators will be
 - 🇲🇾 Malay: [Nurul Azeera Hidayah Muhammad Nur Hidayat Yasuyoshi (MNH48)](https://crowdin.com/profile/mnh48)
 - Mongolian: [MerlinsBeard](https://crowdin.com/profile/MerlinsBeard)
 - 🇳🇴 Norwegian
+  - [Hvalomi](https://crowdin.com/profile/hvalomi)
   - [Ivy Wilson](https://crowdin.com/profile/zach.lawnmower)
   - [Joakim Ødegaard](https://crowdin.com/profile/joakim.od)
   - [Phillip Rødseth](https://crowdin.com/profile/philliphatrod)

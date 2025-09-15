@@ -1,6 +1,7 @@
 import { MantineProvider } from '@mantine/core';
 import { Notifications } from '@mantine/notifications';
 import { RouterTransition } from 'components/app/RouterTransition';
+import moment from 'moment-timezone';
 import { appWithTranslation, useTranslation } from 'next-i18next';
 import { DefaultSeo } from 'next-seo';
 import { AppComponent } from 'next/dist/shared/lib/router/router';
@@ -14,6 +15,8 @@ import { getEmotionCache, themeOverride } from 'src/util/styling';
 import '../app.scss';
 import '../dayjs';
 import '../moment-locales';
+
+const appCreationTimestamp = 1626299131;
 
 const App: AppComponent = ({ Component, pageProps }) => {
   const { asPath, defaultLocale, locale, locales } = useRouter();
@@ -67,7 +70,7 @@ const App: AppComponent = ({ Component, pageProps }) => {
           url: assembleSeoUrl(asPath),
           images: [
             {
-              alt: '<t:1626299131:R> ⬇ 5 hours ago',
+              alt: `<t:${appCreationTimestamp}:R> ⬇ ${moment.unix(appCreationTimestamp).locale(momentLocale).fromNow()}`,
               url: assembleSeoUrl(`/social/preview/${momentLocale}.png`),
               width: 1200,
               height: 630,
