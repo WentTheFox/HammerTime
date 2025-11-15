@@ -159,6 +159,7 @@ English and Hungarian translations have been included, so no translators will be
   - [Hvalomi](https://crowdin.com/profile/hvalomi)
   - [Ivy Wilson](https://crowdin.com/profile/zach.lawnmower)
   - [Joakim Ødegaard](https://crowdin.com/profile/joakim.od)
+  - [Marthine Maurlia](https://crowdin.com/profile/Angellonn)
   - [Phillip Rødseth](https://crowdin.com/profile/philliphatrod)
   - [Sverre Strømodden Jerstad](https://crowdin.com/profile/sverrejerstad)
   - [Thor](https://crowdin.com/profile/thorarne94)
@@ -235,5 +236,6 @@ English and Hungarian translations have been included, so no translators will be
   - [Muhammad Dawood](https://crowdin.com/profile/Developer_X)
   - [muharslan](https://crowdin.com/profile/muharslan)
 - 🇻🇳 Vietnamese
+  - [Đức N5_Trịnh Hoài](https://crowdin.com/profile/anhduc08768)
   - [Nguyễn Hoàng Long](https://crowdin.com/profile/fangcognosphere)
   - [Quan](https://crowdin.com/profile/quanonthecob)

@@ -212,7 +212,7 @@
     },
     "15044779": {
       "username": "holyradek",
-      "avatarUrl": "https://crowdin-static.cf-downloads.crowdin.com/avatar/15044779/medium/e440d01f23715da1da28f78f477dfb72.png",
+      "avatarUrl": "https://crowdin-static.cf-downloads.crowdin.com/avatar/15044779/medium/879052692b4f61e08731b8059001eee3.jpg",
       "fullName": "HolyRadek"
     },
     "15066243": {
@@ -681,6 +681,16 @@
       "username": "hvalomi",
       "avatarUrl": "https://crowdin-static.cf-downloads.crowdin.com/avatar/17322000/medium/b117bdf14a784a7620ff69aeb53036de.jpeg",
       "fullName": "Hvalomi"
+    },
+    "17346592": {
+      "username": "anhduc08768",
+      "avatarUrl": "https://crowdin-static.cf-downloads.crowdin.com/avatar/17346592/medium/bef5d7a4332a33f2015a456048282aed.png",
+      "fullName": "Đức N5_Trịnh Hoài"
+    },
+    "17369904": {
+      "username": "Angellonn",
+      "avatarUrl": "https://crowdin-static.cf-downloads.crowdin.com/avatar/17369904/medium/7b75e48b282d7ecbfeb5a75bfca57d18.jpeg",
+      "fullName": "Marthine Maurlia"
     }
   },
   "languages": {
@@ -795,7 +805,7 @@
         "16684353"
       ],
       "progress": {
-        "approval": 69,
+        "approval": 68,
         "translation": 69
       }
     },
@@ -973,14 +983,15 @@
         "16601907",
         "16406120",
         "16466619",
+        "17322000",
         "16611703",
         "16773913",
-        "17322000",
+        "17369904",
         "16840813"
       ],
       "progress": {
-        "approval": 90,
-        "translation": 91
+        "approval": 94,
+        "translation": 100
       }
     },
     "nl": {
@@ -1150,11 +1161,12 @@
       "translatorIds": [
         "16061216",
         "16601907",
-        "17285274"
+        "17285274",
+        "17346592"
       ],
       "progress": {
         "approval": 95,
-        "translation": 95
+        "translation": 96
       }
     },
     "zh": {
