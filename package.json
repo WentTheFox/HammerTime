@@ -2,7 +2,6 @@
   "name": "with-typescript",
   "version": "1.0.0",
   "scripts": {
-    "predev": "node ./utils/previews.js",
     "dev": "next",
     "build": "next build",
     "start": "next start",
@@ -53,7 +52,6 @@
     "@types/webpack-env": "^1.15.3",
     "@typescript-eslint/eslint-plugin": "^4.7.0",
     "@typescript-eslint/parser": "^4.7.0",
-    "canvas": "^2.11.2",
     "eslint": "^7.13.0",
     "eslint-config-airbnb": "^18.2.1",
     "eslint-config-next": "^11.0.0",
@@ -67,7 +65,6 @@
     "husky": "^7.0.2",
     "lint-staged": "^10.5.3",
     "prettier": "^2.2.1",
-    "sharp": "^0.30.6",
     "source-code-pro": "^2.38.0",
     "typescript": "^4.6"
   },
