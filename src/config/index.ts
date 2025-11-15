@@ -3,7 +3,7 @@ import localeConfig from '../../public/locales/config.json';
 
 export const SITE_TITLE = 'HammerTime';
 export const CANONICAL_URL = 'https://hammertime.cyou';
-export const REPOSITORY_URL = 'https://github.com/DJDavid98/HammerTime';
+export const REPOSITORY_URL = 'https://github.com/DJDavid98/HammerTime/tree/legacy';
 export const CROWDIN_URL = 'https://crowdin.com/project/hammertime';
 export const FONTAWESOME_FREE_LICENSE_URL = 'https://fontawesome.com/license/free';
 
