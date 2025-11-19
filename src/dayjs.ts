@@ -8,6 +8,7 @@ import 'dayjs/locale/de';
 import 'dayjs/locale/el';
 import 'dayjs/locale/en-gb';
 import 'dayjs/locale/es';
+import 'dayjs/locale/eo';
 import 'dayjs/locale/fa';
 import 'dayjs/locale/fi';
 import 'dayjs/locale/fr';

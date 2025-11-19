@@ -8,9 +8,7 @@ export const LanguageFlag: FunctionComponent<
 > = ({ language: { countryCode, customFlag }, role = 'img', size = 24, alt, ...props }) => {
   const flagImageSrc = useMemo(() => {
     if (customFlag) {
-      if (countryCode === 'CA') {
-        return `/flags/${countryCode}.svg`;
-      }
+      return `/flags/${countryCode}.svg`;
     }
 
     return null;

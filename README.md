@@ -88,6 +88,9 @@ English and Hungarian translations have been included, so no translators will be
   - [Jesse](https://github.com/Jessuhh)
   - [MadLad255](https://crowdin.com/profile/MadLad255)
   - [Rohan](https://crowdin.com/profile/SirRohan)
+- Esperanto
+  - [Rémi Simonnin](https://crowdin.com/profile/remsoff)
+  - [Stela Verd](https://crowdin.com/profile/Verdstela)
 - 🇫🇮 Finnish
   - [Cookie](https://crowdin.com/profile/cookiethegamer33)
   - [Deadly dead](https://crowdin.com/profile/cricribebe)

@@ -442,6 +442,12 @@
       "nativeName": "Suomi",
       "countryCode": "FI",
       "emoji": "\uD83C\uDDEB\uD83C\uDDEE"
+    },
+    "eo": {
+      "name": "Esperanto",
+      "nativeName": "Esperanto",
+      "countryCode": "EO",
+      "customFlag": true
     }
   }
 }
