@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Alert } from '@mantine/core';
-import { getCookie, setCookies } from 'cookies-next';
+import { getCookie, setCookie } from 'cookies-next';
 import moment from 'moment-timezone';
 import { useTranslation } from 'next-i18next';
 import { FC, useEffect, useMemo, useState } from 'react';
@@ -17,7 +17,7 @@ export const HowToAlert: FC = () => {
   const locale = useLocale(language);
   const [showHowTo, setShowHowTo] = useState(false);
   const handleHowToClose = () => {
-    setCookies(howToCookieName, howToCookieValue, {
+    void setCookie(howToCookieName, howToCookieValue, {
       expires: moment().add(2, 'years').toDate(),
     });
     setShowHowTo(false);

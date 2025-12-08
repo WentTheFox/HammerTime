@@ -225,7 +225,7 @@ English and Hungarian translations have been included, so no translators will be
   - [tunket](https://crowdin.com/profile/tunket)
 - 🇹🇭 Thai: [timelessnesses](https://github.com/timelessnesses)
 - 🇹🇷 Turkish
-  - [Baran Moroğan](https://crowdin.com/profile/okunamayanad)
+  - [Baran Mordoğan](https://crowdin.com/profile/okunamayanad)
   - [tututuana](https://crowdin.com/profile/tututuana)
   - [x0jony](https://crowdin.com/profile/x0jony)
 - 🇺🇦 Ukrainian
