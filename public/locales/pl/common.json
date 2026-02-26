@@ -1,6 +1,6 @@
 {
   "seoDescription": "Generator znaczników czasu dla wiadomości wysyłanych na Discordzie",
-  "howTo": "Wybierz datę, skopiuj wybrany znacznik czasu z kolumny {{syntaxColName}}, a następnie wklej go w dowolnym miejscu w wiadomości. Gdy wiadomość zostanie wysłana, Ty i inni użytkownicy zobaczycie dynamiczny znacznik czasu, który będzie wyświetlany inaczej dla każdego, w zależności od strefy czasowej danego użytkownika.",
+  "howTo": "Wybierz datę, skopiuj wybrany znacznik czasu z kolumny {syntaxColName}, a następnie wklej go w dowolnym miejscu w wiadomości. Gdy wiadomość zostanie wysłana, Ty i inni użytkownicy zobaczycie dynamiczny znacznik czasu, który będzie wyświetlany inaczej dla każdego, w zależności od strefy czasowej danego użytkownika.",
   "input": {
     "timezone": "Strefa czasowa",
     "datetime": "Data i czas",
@@ -39,7 +39,7 @@
       "pWithoutCommand": "Generuj znaczniki czasu z poziomu Discorda za pomocą poleceń typu slash"
     },
     "textColor": {
-      "header": "Generator <1>Kolorowego</1> tekstu Rebane'a",
+      "header": "Generator <one>Kolorowego</one> tekstu Rebane'a",
       "p": "Prosta aplikacja do tworzenia kolorowych wiadomości na Discord przy użyciu kodów kolorów ANSI"
     },
     "betaSite": {
@@ -64,8 +64,8 @@
   },
   "timeSync": {
     "syncing": "Synchronizacja czasu z serwerem…",
-    "outOfSync": "Czas twojego urządzeia wydaje się odbiegać od normy, może to prowadzić do błędów w obliczeniach (różnica: {{deltaTimeMs}}ms)",
-    "inSync": "Czas zsynchronizowany (różnica: {{deltaTimeMs}}ms)"
+    "outOfSync": "Czas twojego urządzeia wydaje się odbiegać od normy, może to prowadzić do błędów w obliczeniach (różnica: {deltaTimeMs}ms)",
+    "inSync": "Czas zsynchronizowany (różnica: {deltaTimeMs}ms)"
   },
   "a11y": {
     "calendar": {
@@ -80,11 +80,11 @@
   },
   "credits": {
     "title": "Autorzy",
-    "translationsBy": "Tłumaczenia <1></1>",
+    "translationsBy": "Tłumaczenia <one></one>",
     "incompleteTranslations": "Tłumaczenia są niekompletne",
     "contributeTranslations": "Wkład",
-    "developedBy": "Stworzone przez <1></1>",
-    "externalLibraries": "Używając <1></1>",
+    "developedBy": "Stworzone przez <one></one>",
+    "externalLibraries": "Używając <one></one>",
     "openSource": "Otwartoźródłowe oprogramowanie",
     "fontAwesomeFree": "Font Awesome Free",
     "mantine": "Mantine"

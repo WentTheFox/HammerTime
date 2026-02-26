@@ -1,6 +1,6 @@
 {
   "seoDescription": "Generiere Zeitstempel-Indikatoren für Discord Chatnachrichten",
-  "howTo": "Wähle ein Datum, kopiere den gewünschten Zeitstempel aus der Spalte {{syntaxColName}} und füge ihn dann irgendwo in eine Chatnachricht ein. Das Ergebnis ist ein dynamischer Zeitstempel, der je nach Zeitzone für jeden unterschiedlich angezeigt wird.",
+  "howTo": "Wähle ein Datum, kopiere den gewünschten Zeitstempel aus der Spalte {syntaxColName} und füge ihn dann irgendwo in eine Chatnachricht ein. Das Ergebnis ist ein dynamischer Zeitstempel, der je nach Zeitzone für jeden unterschiedlich angezeigt wird.",
   "input": {
     "timezone": "Zeitzone",
     "datetime": "Datum und Uhrzeit",
@@ -39,7 +39,7 @@
       "pWithoutCommand": "Generiere Zeitstempel innerhalb von Discord mit Slash-Befehlen"
     },
     "textColor": {
-      "header": "Rebane's <1>Farbiger</1> Text Generator",
+      "header": "Rebane's <one>Farbiger</one> Text Generator",
       "p": "Eine einfache Anwendung, die farbige Discord-Nachrichten mit ANSI-Farbcodes erstellt"
     },
     "betaSite": {
@@ -64,8 +64,8 @@
   },
   "timeSync": {
     "syncing": "Zeit wird mit dem Server Synchronisiert…",
-    "outOfSync": "Die Zeit deines Gerätes scheint nicht zu stimmen, was zu Berechnungsfehlern führen kann (Unterschied: {{deltaTimeMs}}ms)",
-    "inSync": "Zeit synchronisiert (Unterschied: {{deltaTimeMs}}ms)"
+    "outOfSync": "Die Zeit deines Gerätes scheint nicht zu stimmen, was zu Berechnungsfehlern führen kann (Unterschied: {deltaTimeMs}ms)",
+    "inSync": "Zeit synchronisiert (Unterschied: {deltaTimeMs}ms)"
   },
   "a11y": {
     "calendar": {
@@ -80,11 +80,11 @@
   },
   "credits": {
     "title": "Credits",
-    "translationsBy": "Übersetzungen von <1></1>",
+    "translationsBy": "Übersetzungen von <one></one>",
     "incompleteTranslations": "Übersetzung nicht vollständig",
     "contributeTranslations": "Beitragen",
-    "developedBy": "Entwickelt von <1></1>",
-    "externalLibraries": "Erstellt mit <1></1>",
+    "developedBy": "Entwickelt von <one></one>",
+    "externalLibraries": "Erstellt mit <one></one>",
     "openSource": "Open-Source Software",
     "fontAwesomeFree": "Font Awesome Font",
     "mantine": "Mantine"

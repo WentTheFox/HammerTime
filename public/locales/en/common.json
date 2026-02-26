@@ -1,6 +1,6 @@
 {
   "seoDescription": "Generate timestamp indicators for Discord chat messages",
-  "howTo": "Pick a date, copy the desired timestamp from the {{syntaxColName}} column, then paste it anywhere in a chat message. The result will be a dynamic timestamp that displays differently for everyone based on their own timezone.",
+  "howTo": "Pick a date, copy the desired timestamp from the {syntaxColName} column, then paste it anywhere in a chat message. The result will be a dynamic timestamp that displays differently for everyone based on their own timezone.",
   "input": {
     "timezone": "Timezone",
     "datetime": "Date and time",
@@ -39,7 +39,7 @@
       "pWithoutCommand": "Generate timestamps from within Discord using slash commands"
     },
     "textColor": {
-      "header": "Rebane's <1>Colored</1> Text Generator",
+      "header": "Rebane's <one>Colored</one> Text Generator",
       "p": "A simple app that creates colored Discord messages using ANSI color codes"
     },
     "betaSite": {
@@ -64,8 +64,8 @@
   },
   "timeSync": {
     "syncing": "Synchronizing time with server…",
-    "outOfSync": "Your device time seems off, this may lead to calculation errors (difference: {{deltaTimeMs}}ms)",
-    "inSync": "Time synchronized (difference: {{deltaTimeMs}}ms)"
+    "outOfSync": "Your device time seems off, this may lead to calculation errors (difference: {deltaTimeMs}ms)",
+    "inSync": "Time synchronized (difference: {deltaTimeMs}ms)"
   },
   "a11y": {
     "calendar": {
@@ -80,11 +80,11 @@
   },
   "credits": {
     "title": "Credits",
-    "translationsBy": "Translations by <1></1>",
+    "translationsBy": "Translations by <one></one>",
     "incompleteTranslations": "Translations are incomplete",
     "contributeTranslations": "Contribute",
-    "developedBy": "Developed by <1></1>",
-    "externalLibraries": "Using <1></1>",
+    "developedBy": "Developed by <one></one>",
+    "externalLibraries": "Using <one></one>",
     "openSource": "Open-source software",
     "fontAwesomeFree": "Font Awesome Free",
     "mantine": "Mantine"

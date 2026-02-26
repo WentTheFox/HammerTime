@@ -2,13 +2,13 @@ import { GetStaticProps, NextPage } from 'next';
 import { Layout } from 'components/app/Layout';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronRight, faSquarePlus, faUserPlus } from '@fortawesome/free-solid-svg-icons';
-import { SSRConfig, useTranslation } from 'next-i18next';
+import { useTranslations } from 'next-intl';
 import { typedServerSideTranslations } from 'src/util/i18n-server';
 import styles from 'modules/AddAppPage.module.scss';
 import { Center, Flex } from '@mantine/core';
 import { FC, PropsWithChildren } from 'react';
 import { IconProp } from '@fortawesome/fontawesome-svg-core';
-import { SITE_TITLE } from 'src/config';
+import { ServerSideTranslations, SITE_TITLE } from 'src/config';
 import { CustomIcon } from 'components/CustomIcon';
 import Head from 'next/head';
 
@@ -31,30 +31,30 @@ const AddLink: FC<AddLinkProps> = ({ installType, startIcon, title, description 
 );
 
 const DiscordAppPage: NextPage = () => {
-  const { t } = useTranslation();
+  const t = useTranslations();
   return (
     <Layout>
       <Head>
-        <title>{t('common:usefulLinks.bot.header')}</title>
+        <title>{t('usefulLinks.bot.header')}</title>
       </Head>
 
       <Center w="100%" mih="100vh" className={styles.page}>
         <Flex direction="column" align="center">
           <CustomIcon src="/logos/logo.png" alt="" className={styles.logo} />
           <h1 className={styles.title}>{SITE_TITLE}</h1>
-          <p className={styles.subtitle}>{t('common:add-app.title')}</p>
+          <p className={styles.subtitle}>{t('add-app.title')}</p>
           <Flex direction="column" className={styles['add-links-wrap']}>
             <AddLink
               installType="user"
               startIcon={faUserPlus}
-              title={t('common:add-app.user.title')}
-              description={t('common:add-app.user.description')}
+              title={t('add-app.user.title')}
+              description={t('add-app.user.description')}
             />
             <AddLink
               installType="guild"
               startIcon={faSquarePlus}
-              title={t('common:add-app.guild.title')}
-              description={t('common:add-app.guild.description')}
+              title={t('add-app.guild.title')}
+              description={t('add-app.guild.description')}
             />
           </Flex>
         </Flex>
@@ -65,7 +65,7 @@ const DiscordAppPage: NextPage = () => {
 
 export default DiscordAppPage;
 
-export const getStaticProps: GetStaticProps<SSRConfig> = async ({ locale }) => ({
+export const getStaticProps: GetStaticProps<ServerSideTranslations> = async ({ locale }) => ({
   props: {
     ...(await typedServerSideTranslations(locale)),
   },

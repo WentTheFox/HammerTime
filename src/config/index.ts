@@ -1,3 +1,4 @@
+import { useTranslations } from 'next-intl';
 import { LanguageConfigV2 } from 'src/model/language-config';
 import localeConfig from '../../public/locales/config.json';
 
@@ -21,7 +22,10 @@ type LanguagesConfig = Record<AvailableLanguage, LatestLanguageConfigType>;
 
 export const LANGUAGES: LanguagesConfig = localeConfig.languages;
 
-export const DEFAULT_I18N_NAMESPACES = ['common'];
+export const FALLBACK_LANGUAGE = 'en';
+
+export type TFunction = ReturnType<typeof useTranslations>;
+export type ServerSideTranslations = { messages: Record<string, any> };
 
 export const isAvailableLanguage = (language: string): language is AvailableLanguage => language in LANGUAGES;
 
@@ -32,7 +36,7 @@ export const CSP_HEADER = [
   `script-src ${DEV_MODE ? `* 'unsafe-inline' 'unsafe-hashes' ` : ''}'self' 'unsafe-eval'`,
   `style-src 'self' 'unsafe-inline' fonts.googleapis.com`,
   `img-src 'self' data: cdn.jsdelivr.net crowdin-static.downloads.crowdin.com crowdin-static.cf-downloads.crowdin.com avatars.githubusercontent.com gravatar.com`,
-  'font-src fonts.gstatic.com',
+  `font-src 'self' fonts.gstatic.com`,
   `connect-src 'self' vitals.vercel-insights.com',
   'media-src 'self'`,
   `object-src 'none'`,

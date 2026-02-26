@@ -1,11 +1,11 @@
-import { FC } from 'react';
 import { ExternalLink } from 'components/ExternalLink';
-import { FONTAWESOME_FREE_LICENSE_URL, MANTINE_URL } from 'src/config';
 import styles from 'modules/ExternalLibrariesCredit.module.scss';
-import { useTranslation } from 'next-i18next';
+import { useTranslations } from 'next-intl';
+import { FC } from 'react';
+import { FONTAWESOME_FREE_LICENSE_URL, MANTINE_URL } from 'src/config';
 
 export const ExternalLibrariesCredit: FC = () => {
-  const { t } = useTranslation();
+  const t = useTranslations();
   return (
     <ul className={styles['external-libraries-credit']}>
       <li>

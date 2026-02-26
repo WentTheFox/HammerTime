@@ -45,14 +45,12 @@ $large-input-threshold: 768px;
     }
   }
 
-  :global {
-    .mantine-InputWrapper-label {
-      display: block;
-    }
+  :global(.mantine-InputWrapper-label) {
+    display: block;
+  }
 
-    .mantine-AmPmInput-amPmInput {
-      width: 3em !important;
-      text-align: center;
-    }
+  :global(.mantine-AmPmInput-amPmInput) {
+    width: 3em !important;
+    text-align: center;
   }
 }

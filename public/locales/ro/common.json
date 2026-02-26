@@ -1,6 +1,6 @@
 {
   "seoDescription": "Generați indicatori de timestamp pentru mesajele de chat Discord",
-  "howTo": "Alegeți o dată, copiați data și ora dorite din coloana {{syntaxColName}}, apoi inserați-o oriunde într-un mesaj de chat. Rezultatul va fi un timestamp dinamic care se afișează diferit pentru fiecare persoană în funcție de propriul fus orar.",
+  "howTo": "Alegeți o dată, copiați data și ora dorite din coloana {syntaxColName}, apoi inserați-o oriunde într-un mesaj de chat. Rezultatul va fi un timestamp dinamic care se afișează diferit pentru fiecare persoană în funcție de propriul fus orar.",
   "input": {
     "timezone": "Fus orar",
     "datetime": "Data și timpu",
@@ -39,7 +39,7 @@
       "pWithoutCommand": "Generați timestamp-uri din cadrul Discord folosind comenzi slash"
     },
     "textColor": {
-      "header": "Generatorul de text <1>Colorat</1> al lui Rebane",
+      "header": "Generatorul de text <one>Colorat</one> al lui Rebane",
       "p": "O aplicație simplă care creează mesaje Discord colorate folosind coduri de culoare ANSI"
     },
     "betaSite": {
@@ -64,8 +64,8 @@
   },
   "timeSync": {
     "syncing": "Sincronizarea timpului cu serverul…",
-    "outOfSync": "Ora dispozitivului pare oprită, acest lucru poate duce la erori de calcul (diferență: {{deltaTimeMs}}ms)",
-    "inSync": "Timp sincronizat (diferență: {{deltaTimeMs}}ms)"
+    "outOfSync": "Ora dispozitivului pare oprită, acest lucru poate duce la erori de calcul (diferență: {deltaTimeMs}ms)",
+    "inSync": "Timp sincronizat (diferență: {deltaTimeMs}ms)"
   },
   "a11y": {
     "calendar": {
@@ -80,11 +80,11 @@
   },
   "credits": {
     "title": "Credite",
-    "translationsBy": "Tradus de <1></1>",
+    "translationsBy": "Tradus de <one></one>",
     "incompleteTranslations": "Traducerile sunt incomplete",
     "contributeTranslations": "Contribuiți",
-    "developedBy": "Dezvoltat de <1></1>",
-    "externalLibraries": "Folosind <1></1>",
+    "developedBy": "Dezvoltat de <one></one>",
+    "externalLibraries": "Folosind <one></one>",
     "openSource": "Software cu sursă deschisă",
     "fontAwesomeFree": "Font Awesome Gratuit",
     "mantine": "Mantine"

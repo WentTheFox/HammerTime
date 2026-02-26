@@ -1,6 +1,6 @@
 {
   "seoDescription": "Générez des indicateurs d'horodatage pour les messages Discord",
-  "howTo": "Choisissez une date, copiez l'horodatage désiré qui se situe dans la colonne \"{{syntaxColName}}\", ensuite collez le ou vous le souhaitez dans votre message. Le résultat sera un \"timestamp\" dynamique qui s'affichera différemment pour les gens suivant leur fuseau horaire.",
+  "howTo": "Choisissez une date, copiez l'horodatage désiré qui se situe dans la colonne \"{syntaxColName}\", ensuite collez le ou vous le souhaitez dans votre message. Le résultat sera un \"timestamp\" dynamique qui s'affichera différemment pour les gens suivant leur fuseau horaire.",
   "input": {
     "timezone": "Fuseau horaire",
     "datetime": "Date et heure",
@@ -39,7 +39,7 @@
       "pWithoutCommand": "Générer des horodatages à partir de Discord à l'aide de commandes slash"
     },
     "textColor": {
-      "header": "Le générateur de texte <1>coloré</1> de Rebane",
+      "header": "Le générateur de texte <one>coloré</one> de Rebane",
       "p": "Une app simple qui crée des messages Discord colorés grâce aux codes couleur ANSI"
     },
     "betaSite": {
@@ -64,8 +64,8 @@
   },
   "timeSync": {
     "syncing": "Synchronisation de l'heure avec le serveur…",
-    "outOfSync": "L'heure de votre appareil semble décalée, ce qui peut entraîner des erreurs de calcul (différence : {{deltaTimeMs}}ms)",
-    "inSync": "Heure synchronisée (différence : {{deltaTimeMs}}ms)"
+    "outOfSync": "L'heure de votre appareil semble décalée, ce qui peut entraîner des erreurs de calcul (différence : {deltaTimeMs}ms)",
+    "inSync": "Heure synchronisée (différence : {deltaTimeMs}ms)"
   },
   "a11y": {
     "calendar": {
@@ -80,11 +80,11 @@
   },
   "credits": {
     "title": "Crédits",
-    "translationsBy": "Traduit par <1></1>",
+    "translationsBy": "Traduit par <one></one>",
     "incompleteTranslations": "Les traductions sont incomplètes",
     "contributeTranslations": "Contribuer",
-    "developedBy": "Développeur <1></1>",
-    "externalLibraries": "Utilisant <1></1>",
+    "developedBy": "Développeur <one></one>",
+    "externalLibraries": "Utilisant <one></one>",
     "openSource": "Logiciel open-source",
     "fontAwesomeFree": "Font Awesome Free",
     "mantine": "Mantime"

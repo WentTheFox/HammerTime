@@ -2,7 +2,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Table, Text } from '@mantine/core';
 import { CopySyntax } from 'components/CopySyntax';
 import { IconCol } from 'components/IconCol';
-import { TFunction } from 'i18next';
+import { TFunction } from 'src/config';
 import styles from 'modules/TimestampsTable.module.scss';
 import moment, { Moment } from 'moment-timezone';
 import { FC, useEffect, useMemo, useState } from 'react';
@@ -74,9 +74,9 @@ export const TimestampsTable: FC<PropTypes> = ({ t, locale, timestamp, timeInSec
       <thead>
         <tr>
           <th className={styles['syntax-column']} colSpan={2}>
-            {t('common:table.syntax')}
+            {t('table.syntax')}
           </th>
-          <th className={styles['example-column']}>{t('common:table.example')}</th>
+          <th className={styles['example-column']}>{t('table.example')}</th>
         </tr>
       </thead>
       <tbody>

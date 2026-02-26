@@ -1,6 +1,6 @@
 {
   "seoDescription": "Jana penunjuk cap masa untuk mesej sembang Discord",
-  "howTo": "Pilih tarikh, salin cap masa yang diingini dari lajur {{syntaxColName}}, kemudian tampal di mana-mana sahaja dalam mesej sembang. Hasilnya ialah cap masa dinamik yang dipaparkan secara berlainan untuk semua orang berdasarkan zon waktu masing-masing.",
+  "howTo": "Pilih tarikh, salin cap masa yang diingini dari lajur {syntaxColName}, kemudian tampal di mana-mana sahaja dalam mesej sembang. Hasilnya ialah cap masa dinamik yang dipaparkan secara berlainan untuk semua orang berdasarkan zon waktu masing-masing.",
   "input": {
     "timezone": "Zon waktu",
     "datetime": "Tarikh dan masa",
@@ -39,7 +39,7 @@
       "pWithoutCommand": "Jana cap masa di dalam Discord sendiri menggunakan perintah palang"
     },
     "textColor": {
-      "header": "Penjana Tulisan <1>Berwarna</1> Rebane",
+      "header": "Penjana Tulisan <one>Berwarna</one> Rebane",
       "p": "Aplikasi ringkas yang menjana mesej Discord berwarna menggunakan kod warna ANSI"
     },
     "betaSite": {
@@ -64,8 +64,8 @@
   },
   "timeSync": {
     "syncing": "Menyelaraskan masa dengan pelayan…",
-    "outOfSync": "Nampaknya masa peranti anda tidak tepat, ini boleh menyebabkan ralat perkiraan (perbezaan: {{deltaTimeMs}}ms)",
-    "inSync": "Masa telah diselaraskan (perbezaan: {{deltaTimeMs}}ms)"
+    "outOfSync": "Nampaknya masa peranti anda tidak tepat, ini boleh menyebabkan ralat perkiraan (perbezaan: {deltaTimeMs}ms)",
+    "inSync": "Masa telah diselaraskan (perbezaan: {deltaTimeMs}ms)"
   },
   "a11y": {
     "calendar": {
@@ -80,11 +80,11 @@
   },
   "credits": {
     "title": "Penghargaan",
-    "translationsBy": "Terjemahan oleh <1></1>",
+    "translationsBy": "Terjemahan oleh <one></one>",
     "incompleteTranslations": "Terjemahan masih belum lengkap",
     "contributeTranslations": "Sumbang",
-    "developedBy": "Dibangunkan oleh <1></1>",
-    "externalLibraries": "Menggunakan <1></1>",
+    "developedBy": "Dibangunkan oleh <one></one>",
+    "externalLibraries": "Menggunakan <one></one>",
     "openSource": "Perisian sumber terbuka",
     "fontAwesomeFree": "Font Awesome Free",
     "mantine": "Mantine"

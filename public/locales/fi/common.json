@@ -1,6 +1,6 @@
 {
   "seoDescription": "Luo aikaleimailmaisimet Discord-chat-viesteille",
-  "howTo": "Valitse päivämäärä, kopioi haluamasi aikaleima {{syntaxColName}} -sarakkeeseen ja liitä se mihin tahansa chat-viestin kohtaan. Tuloksena on dynaaminen aikaleima, joka näkyy eri tavalla jokaiselle oman aikavyöhykkeensä perusteella.",
+  "howTo": "Valitse päivämäärä, kopioi haluamasi aikaleima {syntaxColName} -sarakkeeseen ja liitä se mihin tahansa chat-viestin kohtaan. Tuloksena on dynaaminen aikaleima, joka näkyy eri tavalla jokaiselle oman aikavyöhykkeensä perusteella.",
   "input": {
     "timezone": "Aikavyöhyke",
     "datetime": "Päivämäärä ja aika",
@@ -39,7 +39,7 @@
       "pWithoutCommand": "Luo aikaleimoja Discordissa kauttaviivakomennoilla"
     },
     "textColor": {
-      "header": "Rebanen <1>Värillinen</1> Tekstigeneraattori",
+      "header": "Rebanen <one>Värillinen</one> Tekstigeneraattori",
       "p": "Yksinkertainen sovellus joka luo värillisiä Discord viestejä käyttäen ANSI-värijärjestelmää"
     },
     "betaSite": {
@@ -64,8 +64,8 @@
   },
   "timeSync": {
     "syncing": "Synkronoidaan aikaa palvelimen kanssa…",
-    "outOfSync": "Laitteesi aika näyttää olevan väärässä. Tämä saattaa johtaa laskuvirheisiin. (ero: {{deltaTimeMs}}ms)",
-    "inSync": "Aika synkronoitu (ero: {{deltaTimeMs}}ms)"
+    "outOfSync": "Laitteesi aika näyttää olevan väärässä. Tämä saattaa johtaa laskuvirheisiin. (ero: {deltaTimeMs}ms)",
+    "inSync": "Aika synkronoitu (ero: {deltaTimeMs}ms)"
   },
   "a11y": {
     "calendar": {
@@ -80,11 +80,11 @@
   },
   "credits": {
     "title": "Tekijät",
-    "translationsBy": "Käännökset <1></1>",
+    "translationsBy": "Käännökset <one></one>",
     "incompleteTranslations": "Käännökset eivät ole täydellisiä",
     "contributeTranslations": "Avusta",
-    "developedBy": "Kehittänyt <1></1>",
-    "externalLibraries": "Käyttämällä <1></1>",
+    "developedBy": "Kehittänyt <one></one>",
+    "externalLibraries": "Käyttämällä <one></one>",
     "openSource": "avoimen lähdekoodin ohjelmisto",
     "fontAwesomeFree": "Font Awesome Free",
     "mantine": "Mantine"

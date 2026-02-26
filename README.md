@@ -65,7 +65,7 @@ English and Hungarian translations have been included, so no translators will be
   - [User670](https://crowdin.com/profile/User670)
   - [姓甚名谁](https://crowdin.com/profile/febilly)
 - 🇹🇼 Chinese Traditional
-  - [Jackie](https://crowdin.com/profile/jckcr)
+  - [Jckcr](https://crowdin.com/profile/jckcr)
   - [ms.investigator](https://crowdin.com/profile/ms.)
   - [notlin4](https://crowdin.com/profile/notlin4)
 - 🇭🇷 Croatian
@@ -88,9 +88,6 @@ English and Hungarian translations have been included, so no translators will be
   - [Jesse](https://github.com/Jessuhh)
   - [MadLad255](https://crowdin.com/profile/MadLad255)
   - [Rohan](https://crowdin.com/profile/SirRohan)
-- Esperanto
-  - [Rémi Simonnin](https://crowdin.com/profile/remsoff)
-  - [Stela Verd](https://crowdin.com/profile/Verdstela)
 - 🇫🇮 Finnish
   - [Cookie](https://crowdin.com/profile/cookiethegamer33)
   - [Deadly dead](https://crowdin.com/profile/cricribebe)
@@ -128,7 +125,7 @@ English and Hungarian translations have been included, so no translators will be
 - 🇮🇳 Hindi
   - [Balajiasli](https://crowdin.com/profile/Balajiasli)
   - [Natzu](https://crowdin.com/profile/natieon)
-- 🇮🇩 Indonesian: [Jackie](https://github.com/Jckcr)
+- 🇮🇩 Indonesian: [Jckcr](https://github.com/Jckcr)
 - 🇮🇹 Italian
   - [Lory Pelli](https://github.com/lorypelli)
   - [Spisp](https://crowdin.com/profile/Spisp)
@@ -146,7 +143,7 @@ English and Hungarian translations have been included, so no translators will be
   - [Phrygia](https://github.com/sjkim04)
   - [pinedapple (pinedapple)](https://crowdin.com/profile/jayden0108lee)
   - [Sehoon Park](https://crowdin.com/profile/sehoon.sese)
-  - [SkyStorage\_](https://crowdin.com/profile/SkyStorage_)
+  - [uxirq](https://crowdin.com/profile/uxirq)
   - [공백](https://crowdin.com/profile/whiteblankzero)
   - [미르냥](https://crowdin.com/profile/Mirnyang)
 - 🇱🇻 Latvian

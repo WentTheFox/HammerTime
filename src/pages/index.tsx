@@ -12,11 +12,11 @@ import { UsefulLinks } from 'components/UsefulLinks';
 import { parseInt, throttle } from 'lodash';
 import moment, { Moment } from 'moment-timezone';
 import { GetStaticProps, NextPage } from 'next';
-import { SSRConfig, useTranslation } from 'next-i18next';
+import { useTranslations } from 'next-intl';
 import { useRouter } from 'next/router';
 import { ParsedUrlQuery } from 'querystring';
 import { FC, PropsWithChildren, useCallback, useEffect, useMemo, useState } from 'react';
-import { AvailableLanguage, LANGUAGES } from 'src/config';
+import { AvailableLanguage, LANGUAGES, ServerSideTranslations } from 'src/config';
 import { useServerTimeSync } from 'src/hooks/useServerTimeSync';
 import { addSecondsToTimeString, useLocale } from 'src/util/common';
 import { typedServerSideTranslations } from 'src/util/i18n-server';
@@ -36,17 +36,15 @@ const TS_QUERY_PARAM = 't';
 const TZ_QUERY_PARAM = 'tz';
 
 export const IndexPage: NextPage<IndexPageProps> = ({ tzNames }) => {
-  const {
-    t,
-    i18n: { language },
-  } = useTranslation();
+  const t = useTranslations();
+  const router = useRouter();
+  const language = router.locale;
   const locale = useLocale(language);
   const defaultTimezone = useMemo<string>(
     // Get local time zone
     () => moment.tz.guess(),
     [],
   );
-  const router = useRouter();
   const timestampQuery = useMemo(() => {
     const queryParam = router.query[TS_QUERY_PARAM];
     return typeof queryParam === 'string' ? queryParam : undefined;
@@ -166,42 +164,38 @@ export const IndexPage: NextPage<IndexPageProps> = ({ tzNames }) => {
   }, [dateString, initialTimestamp, router.isReady, safeTimezone, setDateTimeString, setTimezone, timeString]);
 
   const fixedTimestamp = initialTimestamp !== null;
-  const { lockButtonTooltipText, setTimeButtonTooltipText, leadText } = useMemo(() => {
-    const options = {
-      defaultValue: false,
-      fallbackLng: [],
-    };
-    return {
-      lockButtonTooltipText: t(fixedTimestamp ? 'common:buttons.unlock' : 'common:buttons.lock', options) as string | null,
-      setTimeButtonTooltipText: t('common:buttons.setCurrentTime', options) as string | null,
-      leadText: t('common:usefulLinks.lead', options) as string | null,
-    };
-  }, [fixedTimestamp, t]);
+  const { lockButtonTooltipText, setTimeButtonTooltipText, leadText } = useMemo(
+    () => ({
+      lockButtonTooltipText: t(fixedTimestamp ? 'buttons.unlock' : 'buttons.lock'),
+      setTimeButtonTooltipText: t('buttons.setCurrentTime'),
+      leadText: t('usefulLinks.lead'),
+    }),
+    [fixedTimestamp, t],
+  );
 
   const ButtonsComponent = useMemo(
     (): FC<PropsWithChildren<{ size: MantineSize }>> =>
       // eslint-disable-next-line react/no-unstable-nested-components -- It's memoized, should be fine (?)
-      ({ size, children }) =>
-        (
-          <>
-            <Tooltip label={setTimeButtonTooltipText}>
-              <Button size={size} color="gray" onClick={setTimeNow} disabled={fixedTimestamp}>
-                <FontAwesomeIcon icon="clock-rotate-left" />
-              </Button>
-            </Tooltip>{' '}
-            <LockButton
-              href={
-                fixedTimestamp
-                  ? `/?${TZ_QUERY_PARAM}=${safeTimezone}`
-                  : `/?${TS_QUERY_PARAM}=${timestampInSecondsString}&${TZ_QUERY_PARAM}=${safeTimezone}`
-              }
-              size={size}
-              lockButtonTooltipText={lockButtonTooltipText}
-              fixedTimestamp={fixedTimestamp}
-            />
-            {children}
-          </>
-        ),
+      ({ size, children }) => (
+        <>
+          <Tooltip label={setTimeButtonTooltipText}>
+            <Button size={size} color="gray" onClick={setTimeNow} disabled={fixedTimestamp}>
+              <FontAwesomeIcon icon="clock-rotate-left" />
+            </Button>
+          </Tooltip>{' '}
+          <LockButton
+            href={
+              fixedTimestamp
+                ? `/?${TZ_QUERY_PARAM}=${safeTimezone}`
+                : `/?${TS_QUERY_PARAM}=${timestampInSecondsString}&${TZ_QUERY_PARAM}=${safeTimezone}`
+            }
+            size={size}
+            lockButtonTooltipText={lockButtonTooltipText}
+            fixedTimestamp={fixedTimestamp}
+          />
+          {children}
+        </>
+      ),
     [fixedTimestamp, lockButtonTooltipText, safeTimezone, setTimeButtonTooltipText, setTimeNow, timestampInSecondsString],
   );
 
@@ -256,7 +250,7 @@ export const IndexPage: NextPage<IndexPageProps> = ({ tzNames }) => {
 
 export default IndexPage;
 
-export const getStaticProps: GetStaticProps<IndexPageProps & SSRConfig> = async ({ locale, params }) => {
+export const getStaticProps: GetStaticProps<IndexPageProps & ServerSideTranslations> = async ({ locale, params }) => {
   const timestamp = params?.timestamp;
   let initialTimestamp: number | null = null;
   if (typeof timestamp === 'string') {

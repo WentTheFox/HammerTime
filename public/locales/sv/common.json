@@ -1,6 +1,6 @@
 {
   "seoDescription": "Generera tidsstämpelindikatorer för Discord-meddelanden",
-  "howTo": "Välj ett datum, kopiera det önskade formatet från kolumnen {{syntaxColName}}, klistra sedan in det någonstans i ett meddelande. Resultatet är dynamiskt och visar olika tid och datum för varje person baserat på deras tidszon.",
+  "howTo": "Välj ett datum, kopiera det önskade formatet från kolumnen {syntaxColName}, klistra sedan in det någonstans i ett meddelande. Resultatet är dynamiskt och visar olika tid och datum för varje person baserat på deras tidszon.",
   "input": {
     "timezone": "Tidszon",
     "datetime": "Datum och tid",
@@ -39,7 +39,7 @@
       "pWithoutCommand": "Generera tidsstämplar direkt i Discord med hjälp av snedstreckskommandon"
     },
     "textColor": {
-      "header": "Rebanes <1>färgade</1> textgenerator",
+      "header": "Rebanes <one>färgade</one> textgenerator",
       "p": "En simpel app som skapar färgade Discord-meddelanden med ANSI-färgkoder"
     },
     "betaSite": {
@@ -64,8 +64,8 @@
   },
   "timeSync": {
     "syncing": "Synkroniserar tiden med servern…",
-    "outOfSync": "Din enhets tid verkar vara felaktig, detta kan leda till beräkningsfel (skillnad: {{deltaTimeMs}}ms)",
-    "inSync": "Tid synkroniserad (skillnad: {{deltaTimeMs}}ms)"
+    "outOfSync": "Din enhets tid verkar vara felaktig, detta kan leda till beräkningsfel (skillnad: {deltaTimeMs}ms)",
+    "inSync": "Tid synkroniserad (skillnad: {deltaTimeMs}ms)"
   },
   "a11y": {
     "calendar": {
@@ -80,11 +80,11 @@
   },
   "credits": {
     "title": "Erkännanden",
-    "translationsBy": "Översättningar av <1></1>",
+    "translationsBy": "Översättningar av <one></one>",
     "incompleteTranslations": "Översättningarna är ofullständiga",
     "contributeTranslations": "Bidra",
-    "developedBy": "Utvecklad av <1></1>",
-    "externalLibraries": "Använder <1></1>",
+    "developedBy": "Utvecklad av <one></one>",
+    "externalLibraries": "Använder <one></one>",
     "openSource": "Öppen källkod",
     "fontAwesomeFree": "Font Awesome Free",
     "mantine": "Mantine"

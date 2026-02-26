@@ -1,11 +1,10 @@
 import { Card, Group, Text } from '@mantine/core';
 import { ExternalLink } from 'components/ExternalLink';
-import { TFunction } from 'i18next';
 import styles from 'modules/UsefulLinks.module.scss';
-import { Trans } from 'next-i18next';
 import Image, { StaticImageData } from 'next/image';
 import Link from 'next/link';
 import { FC, memo, ReactNode, useMemo } from 'react';
+import { TFunction } from 'src/config';
 import betaSite from '../../public/betasite.png';
 import bot from '../../public/bot.png';
 import server from '../../public/server.png';
@@ -20,47 +19,41 @@ interface UsefulLink {
   local?: boolean;
 }
 
-const UsefulLinksComponent: FC<{ t: TFunction; language: string }> = ({ t, language }) => {
+const UsefulLinksComponent: FC<{ t: TFunction; language: string | undefined }> = ({ t, language }) => {
   const components: UsefulLink[] = useMemo(
     () => [
       {
         href: '/discord',
         image: server,
-        name: t('common:usefulLinks.server.header'),
-        desc: t('common:usefulLinks.server.p'),
+        name: t('usefulLinks.server.header'),
+        desc: t('usefulLinks.server.p'),
       },
       {
         href: '/add-bot',
         image: bot,
         local: true,
-        name: t('common:usefulLinks.bot.header'),
-        desc: (
-          <Trans t={t} i18nKey="common:usefulLinks.bot.pWithoutCommand">
-            0<code dir="ltr">1</code>
-          </Trans>
-        ),
+        name: t('usefulLinks.bot.header'),
+        // eslint-disable-next-line react/no-unstable-nested-components
+        desc: t.rich('usefulLinks.bot.pWithoutCommand', { one: (chunks) => <code dir="ltr">{chunks}</code> }),
       },
       {
-        href: `https://beta.hammertime.cyou/${language}`,
+        href: `https://beta.hammertime.cyou/${language || ''}`,
         image: betaSite,
-        name: t('common:usefulLinks.betaSite.header'),
-        desc: t('common:usefulLinks.betaSite.p'),
+        name: t('usefulLinks.betaSite.header'),
+        desc: t('usefulLinks.betaSite.p'),
       },
       {
         href: 'https://rebane2001.com/discord-colored-text-generator/',
         image: textColor,
-        name: (
-          <Trans t={t} i18nKey="common:usefulLinks.textColor.header">
-            0<span style={{ color: '#7781ee' }}>1</span>2
-          </Trans>
-        ),
-        desc: t('common:usefulLinks.textColor.p'),
+        // eslint-disable-next-line react/no-unstable-nested-components
+        name: t.rich('usefulLinks.textColor.header', { one: (chunks) => <span style={{ color: '#7781ee' }}>{chunks}</span> }),
+        desc: t('usefulLinks.textColor.p'),
       },
       {
         href: 'https://reddit.com/r/SplitSecond',
         image: subreddit,
-        name: t('common:usefulLinks.subreddit.header'),
-        desc: t('common:usefulLinks.subreddit.p'),
+        name: t('usefulLinks.subreddit.header'),
+        desc: t('usefulLinks.subreddit.p'),
       },
     ],
     [language, t],

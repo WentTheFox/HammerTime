@@ -1,11 +1,11 @@
 import { Switch, Text } from '@mantine/core';
 import { useLocalSettings } from 'components/contexts/LocalSettingsProvider';
 import styles from 'modules/InputSettings.module.scss';
-import { useTranslation } from 'next-i18next';
+import { useTranslations } from 'next-intl';
 import { FC } from 'react';
 
 export const InputSettings: FC = () => {
-  const { t } = useTranslation();
+  const t = useTranslations();
   const { customInputEnabled, combinedInputsEnabled, toggleCustomInput, toggleSeparateInputs } = useLocalSettings();
 
   return (

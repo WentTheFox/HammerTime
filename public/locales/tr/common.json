@@ -1,6 +1,6 @@
 {
   "seoDescription": "Discord mesajları için zaman damgaları oluştur",
-  "howTo": "Bir tarih seçin, \"{{syntaxColName}}\" sütunundan istediğiniz zaman damgasını kopyalayın ve ardından bunu mesajın herhangi bir yerine yapıştırın. Sonuç, herkes için kendi saat dilimine göre farklı görüntülenen dinamik bir zaman damgası olacaktır.",
+  "howTo": "Bir tarih seçin, \"{syntaxColName}\" sütunundan istediğiniz zaman damgasını kopyalayın ve ardından bunu mesajın herhangi bir yerine yapıştırın. Sonuç, herkes için kendi saat dilimine göre farklı görüntülenen dinamik bir zaman damgası olacaktır.",
   "input": {
     "timezone": "Zaman dilimi",
     "datetime": "Tarih ve zaman",
@@ -39,7 +39,7 @@
       "pWithoutCommand": "Slash komutlarını kullanarak Discord üzerinden zaman damgaları oluşturun"
     },
     "textColor": {
-      "header": "Rebane'in <1>Renkli</1> Metin Oluşturucusu",
+      "header": "Rebane'in <one>Renkli</one> Metin Oluşturucusu",
       "p": "ANSI renk kodlarını kullanarak renkli Discord mesajları oluşturan basit bir uygulama"
     },
     "betaSite": {
@@ -64,8 +64,8 @@
   },
   "timeSync": {
     "syncing": "Zaman sunucu ile senkronize ediliyor…",
-    "outOfSync": "Cihazınızın saati yanlış gözüküyor, bu hesaplama problemlerine yol açabilir (fark: {{deltaTimeMs}}ms)",
-    "inSync": "Zaman senkronize edildi (fark: {{deltaTimeMs}}ms)"
+    "outOfSync": "Cihazınızın saati yanlış gözüküyor, bu hesaplama problemlerine yol açabilir (fark: {deltaTimeMs}ms)",
+    "inSync": "Zaman senkronize edildi (fark: {deltaTimeMs}ms)"
   },
   "a11y": {
     "calendar": {
@@ -80,11 +80,11 @@
   },
   "credits": {
     "title": "Katkıda Bulunanlar",
-    "translationsBy": "Çevirenler <1></1>",
+    "translationsBy": "Çevirenler <one></one>",
     "incompleteTranslations": "Çeviriler eksik",
     "contributeTranslations": "Katkıda bulunun",
-    "developedBy": "<1></1> Tarafından geliştirdi",
-    "externalLibraries": "Kullanılanlar <1></1>",
+    "developedBy": "<one></one> Tarafından geliştirdi",
+    "externalLibraries": "Kullanılanlar <one></one>",
     "openSource": "Açık kaynak kodlu yazılım",
     "fontAwesomeFree": "Font Awesome Free",
     "mantine": "Mantine"

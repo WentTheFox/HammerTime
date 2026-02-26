@@ -1,7 +1,7 @@
 import { IconProp } from '@fortawesome/fontawesome-svg-core';
 import { MantineSize } from '@mantine/core';
-import { TFunction } from 'i18next';
 import { ChangeEvent } from 'react';
+import { TFunction } from 'src/config';
 
 export type InputChangeHandler = (value: Date | ChangeEvent<HTMLInputElement> | null) => void;
 
@@ -11,7 +11,7 @@ export interface TimestampInputProps {
   locale: string;
   dateString: string;
   timeString: string;
-  language: string;
+  language: string | undefined;
   inputSize: MantineSize;
   fixedTimestamp: boolean;
   handleDateChange: InputChangeHandler;

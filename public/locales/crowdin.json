@@ -151,7 +151,7 @@
       "fullName": "Pablo"
     },
     "14531480": {
-      "username": "SkyStorage_",
+      "username": "uxirq",
       "avatarUrl": "https://crowdin-static.cf-downloads.crowdin.com/avatar/14531480/medium/0b26cb0dbb2b20b7615fa67d8f847ba5.png"
     },
     "14673608": {
@@ -266,7 +266,7 @@
     "15258052": {
       "username": "jckcr",
       "avatarUrl": "https://crowdin-static.cf-downloads.crowdin.com/avatar/15258052/medium/e6643a650c986adbe9f90b2a91934a0a.png",
-      "fullName": "Jackie"
+      "fullName": "Jckcr"
     },
     "15263324": {
       "username": "Ouiouibaguette",
@@ -503,7 +503,7 @@
     },
     "16655625": {
       "username": "Sr_Crix",
-      "avatarUrl": "https://crowdin-static.cf-downloads.crowdin.com/avatar/16655625/medium/a4fe32830ff1e5896bc17084e5877831.png"
+      "avatarUrl": "https://crowdin-static.cf-downloads.crowdin.com/avatar/16655625/medium/3dabc4be683eb43abeea6d7df83ab028.jpg"
     },
     "16669493": {
       "username": "x0jony",
@@ -784,16 +784,6 @@
       "progress": {
         "approval": 100,
         "translation": 100
-      }
-    },
-    "eo": {
-      "translatorIds": [
-        "17233228",
-        "16335994"
-      ],
-      "progress": {
-        "approval": 72,
-        "translation": 72
       }
     },
     "es": {

@@ -1,6 +1,6 @@
 {
   "seoDescription": "Laiko žymų generatorius „Discord“ pranešimuose",
-  "howTo": "Pasirink datą, nukopijuok norimą laiko žymą iš skilties {{syntaxColName}} ir įklijuok ją bet kurioje žinutėje. Rezultatas bus dinaminė laiko žymas, kuri bus rodoma skirtingai kiekvienam vartotojui pagal jo laiko juostą.",
+  "howTo": "Pasirink datą, nukopijuok norimą laiko žymą iš skilties {syntaxColName} ir įklijuok ją bet kurioje žinutėje. Rezultatas bus dinaminė laiko žymas, kuri bus rodoma skirtingai kiekvienam vartotojui pagal jo laiko juostą.",
   "input": {
     "timezone": "Laiko juosta",
     "datetime": "Data ir laikas",
@@ -39,7 +39,7 @@
       "pWithoutCommand": "Laiko žymų generavimas \"Discord\" programoje su pasviraus brūkšnio komandomis"
     },
     "textColor": {
-      "header": "<1>Spalvoto</1> teksto generatorius, sukurtas Rebane",
+      "header": "<one>Spalvoto</one> teksto generatorius, sukurtas Rebane",
       "p": "Paprasta programėlė, kuri sukuria spalvotus „Discord“ pranešimus naudodama ANSI kodus"
     }
   },
@@ -56,8 +56,8 @@
   },
   "timeSync": {
     "syncing": "Sinchronizuojamas laikas…",
-    "outOfSync": "Jūsų prietaiso laikas atrodo klaidingas, tai gali sukelti skaičiavimo klaidas (skirtumas: {{deltaTimeMs}}ms)",
-    "inSync": "Laikas sinchronizuotas (skirtumas: {{deltaTimeMs}}ms)"
+    "outOfSync": "Jūsų prietaiso laikas atrodo klaidingas, tai gali sukelti skaičiavimo klaidas (skirtumas: {deltaTimeMs}ms)",
+    "inSync": "Laikas sinchronizuotas (skirtumas: {deltaTimeMs}ms)"
   },
   "a11y": {
     "calendar": {
@@ -72,12 +72,12 @@
   },
   "credits": {
     "title": "Kūrėjų sąrašas",
-    "intro": "Ši svetainė yra atvirojo kodo programinė įranga, kurią sukūrė <1>{{developerName}}</1> naudojant <3>Font Awesome Free</3> ir <5>Mantine</5>. Savanorių vertėjų dėka ji yra prieinama keliomis kalbomis.",
-    "translationsBy": "Išvertė <1></1>",
+    "intro": "Ši svetainė yra atvirojo kodo programinė įranga, kurią sukūrė <one>{developerName}</one> naudojant <3>Font Awesome Free</3> ir <5>Mantine</5>. Savanorių vertėjų dėka ji yra prieinama keliomis kalbomis.",
+    "translationsBy": "Išvertė <one></one>",
     "incompleteTranslations": "Vertimai nebaigti",
     "contributeTranslations": "Prisidėti",
-    "developedBy": "Sukurta <1></1>",
-    "externalLibraries": "Naudojant <1></1>",
+    "developedBy": "Sukurta <one></one>",
+    "externalLibraries": "Naudojant <one></one>",
     "openSource": "Atvirojo kodo programa",
     "fontAwesomeFree": "Font Awesome Free",
     "mantine": "Mantine"

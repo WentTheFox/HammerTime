@@ -22,7 +22,7 @@ export const TimestampInputBrowser: FC<TimestampInputProps> = ({
   if (combinedInput)
     return (
       <BrowserInputCombined
-        label={t('common:input.datetime')}
+        label={t('input.datetime')}
         value={dateString && timeString ? `${dateString}T${timeString}` : ''}
         id={dateTimeInputId}
         onChange={handleDateTimeChange}
@@ -36,7 +36,7 @@ export const TimestampInputBrowser: FC<TimestampInputProps> = ({
     <>
       <BrowserInput
         id={dateInputId}
-        label={t('common:input.date')}
+        label={t('input.date')}
         type="date"
         value={dateString}
         icon={dateInputIcon}
@@ -46,7 +46,7 @@ export const TimestampInputBrowser: FC<TimestampInputProps> = ({
       />
       <BrowserInput
         id={timeInputId}
-        label={t('common:input.time')}
+        label={t('input.time')}
         type="time"
         value={timeString}
         icon={timeInputIcon}

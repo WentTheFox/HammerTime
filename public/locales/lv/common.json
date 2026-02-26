@@ -1,6 +1,6 @@
 {
   "seoDescription": "Izveidot laika zīmogu rādītājus Discord čata ziņojumiem",
-  "howTo": "Izvēlies datumu, nokopē vēlamo laika zīmogu no {{syntaxColName}} kolonnas un ievieto to jebkurā čata ziņā. Rezultāts būs dinamisks laika zīmogs, kas izskatīsies atšķirīgi visiem, atkarībā no viņu pašu laika joslas.",
+  "howTo": "Izvēlies datumu, nokopē vēlamo laika zīmogu no {syntaxColName} kolonnas un ievieto to jebkurā čata ziņā. Rezultāts būs dinamisks laika zīmogs, kas izskatīsies atšķirīgi visiem, atkarībā no viņu pašu laika joslas.",
   "input": {
     "timezone": "Laika josla",
     "datetime": "Datums un laiks",
@@ -39,7 +39,7 @@
       "pWithoutCommand": "Ģenerēt laika zīmogus no Discord izmantojot slīpkomandas"
     },
     "textColor": {
-      "header": "Rebane's <1>Krāsainais</1> teksta ģenerators",
+      "header": "Rebane's <one>Krāsainais</one> teksta ģenerators",
       "p": "Vienkārša lietotne, kas izveido krāsainus Discord ziņojumus, izmantojot ANSI krāsu kodus"
     }
   },
@@ -56,8 +56,8 @@
   },
   "timeSync": {
     "syncing": "Laika sinhronizēšana ar serveri…",
-    "outOfSync": "Ierīces laiks šķiet nepareizs, tas var radīt aprēķinu kļūdas (starpība: {{deltaTimeMs}}ms)",
-    "inSync": "Sinhronizēts laiks (starpība: {{deltaTimeMs}}ms)"
+    "outOfSync": "Ierīces laiks šķiet nepareizs, tas var radīt aprēķinu kļūdas (starpība: {deltaTimeMs}ms)",
+    "inSync": "Sinhronizēts laiks (starpība: {deltaTimeMs}ms)"
   },
   "a11y": {
     "calendar": {
@@ -72,11 +72,11 @@
   },
   "credits": {
     "title": "Pateicība",
-    "translationsBy": "Tulkojumi <1></1>",
+    "translationsBy": "Tulkojumi <one></one>",
     "incompleteTranslations": "Tulkojumi ir nepilnīgi",
     "contributeTranslations": "Atbalsti",
-    "developedBy": "Izstrādājis <1></1>",
-    "externalLibraries": "Izmantojot <1></1>",
+    "developedBy": "Izstrādājis <one></one>",
+    "externalLibraries": "Izmantojot <one></one>",
     "openSource": "Atklātā pirmkoda programmatūra",
     "fontAwesomeFree": "Font Awesome Free",
     "mantine": "Mantine"

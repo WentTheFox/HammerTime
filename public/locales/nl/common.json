@@ -1,6 +1,6 @@
 {
   "seoDescription": "Genereer tijdsaanduidingen voor Discord chatberichten",
-  "howTo": "Kies een datum, kopieer de gewenste tijdsaanduiding van de {{syntaxColName}} kolom en plak deze dan ergens in een chatbericht. Het resultaat zal een dynamische tijdsaanduiding zijn die voor iedereen anders wordt weergegeven, gebaseerd op hun eigen tijdzone.",
+  "howTo": "Kies een datum, kopieer de gewenste tijdsaanduiding van de {syntaxColName} kolom en plak deze dan ergens in een chatbericht. Het resultaat zal een dynamische tijdsaanduiding zijn die voor iedereen anders wordt weergegeven, gebaseerd op hun eigen tijdzone.",
   "input": {
     "timezone": "Tijdzone",
     "datetime": "Datum en tijd",
@@ -39,7 +39,7 @@
       "pWithoutCommand": "Genereer tijdstempels in Discord door middel van slash-opdrachten"
     },
     "textColor": {
-      "header": "Rebane's <1>gekleurde</1> tekst generator",
+      "header": "Rebane's <one>gekleurde</one> tekst generator",
       "p": "Een eenvoudige app die gekleurde Discord-berichten maakt met ANSI-kleurcodes"
     },
     "betaSite": {
@@ -64,8 +64,8 @@
   },
   "timeSync": {
     "syncing": "Tijd aan het synchroniseren met de server…",
-    "outOfSync": "De tijd van uw apparaat lijkt incorrect, dit kan leiden tot rekenfouten (verschil: {{deltaTimeMs}}ms)",
-    "inSync": "Tijd gesynchroniseerd (verschil: {{deltaTimeMs}}ms)"
+    "outOfSync": "De tijd van uw apparaat lijkt incorrect, dit kan leiden tot rekenfouten (verschil: {deltaTimeMs}ms)",
+    "inSync": "Tijd gesynchroniseerd (verschil: {deltaTimeMs}ms)"
   },
   "a11y": {
     "calendar": {
@@ -80,11 +80,11 @@
   },
   "credits": {
     "title": "Met dank aan",
-    "translationsBy": "Vertalingen door <1></1>",
+    "translationsBy": "Vertalingen door <one></one>",
     "incompleteTranslations": "Vertalingen zijn onvolledig",
     "contributeTranslations": "Draag bij",
-    "developedBy": "Ontwikkeld door <1></1>",
-    "externalLibraries": "Met behulp van <1></1>",
+    "developedBy": "Ontwikkeld door <one></one>",
+    "externalLibraries": "Met behulp van <one></one>",
     "openSource": "Open-source software",
     "fontAwesomeFree": "Font Awesome Free",
     "mantine": "Mantine"

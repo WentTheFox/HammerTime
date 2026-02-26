@@ -5,7 +5,7 @@ import { AppSidebar } from 'components/app/AppSidebar';
 import { useLocalSettings } from 'components/contexts/LocalSettingsProvider';
 import { CustomIcon } from 'components/CustomIcon';
 import styles from 'modules/AppContainer.module.scss';
-import { useTranslation } from 'next-i18next';
+import { useTranslations } from 'next-intl';
 import Link from 'next/link';
 import { FC, PropsWithChildren, useCallback, useState } from 'react';
 import { SITE_TITLE } from 'src/config';
@@ -14,7 +14,7 @@ const headerHeight = 52;
 const toggleButtonSpacing = 8;
 
 export const AppContainer: FC<PropsWithChildren> = ({ children }) => {
-  const { t } = useTranslation();
+  const t = useTranslations();
   const theme = useMantineTheme();
   const { sidebarOnRight, sidebarOffDesktop, toggleSidebarOnRight, toggleSidebarOffDesktop } = useLocalSettings();
   const [opened, setOpened] = useState(false);
@@ -51,12 +51,10 @@ export const AppContainer: FC<PropsWithChildren> = ({ children }) => {
             </UnstyledButton>
           </MediaQuery>
           <Center>
-            <Link href="/" passHref legacyBehavior>
-              <Anchor size="xl" weight={700} color="dimmed" underline={false}>
-                <CustomIcon src="/logos/app.svg" alt="" />
-                {` ${SITE_TITLE}`}
-              </Anchor>
-            </Link>
+            <Anchor component={Link} size="xl" weight={700} color="dimmed" underline={false} href="/">
+              <CustomIcon src="/logos/app.svg" alt="" />
+              {` ${SITE_TITLE}`}
+            </Anchor>
           </Center>
         </Header>
       }

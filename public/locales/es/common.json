@@ -1,6 +1,6 @@
 {
   "seoDescription": "Genera marcas de tiempo para mensajes de chat de Discord",
-  "howTo": "Elige una fecha, copia la marca de tiempo que desees de la columna {{syntaxColName}}, luego cópiala en un mensaje de chat. El resultado será una marca de tiempo dinámica que se mostrará diferente a cada usuario basado en su zona horaria.",
+  "howTo": "Elige una fecha, copia la marca de tiempo que desees de la columna {syntaxColName}, luego cópiala en un mensaje de chat. El resultado será una marca de tiempo dinámica que se mostrará diferente a cada usuario basado en su zona horaria.",
   "input": {
     "timezone": "Zona Horaria",
     "datetime": "Fecha y Hora",
@@ -39,7 +39,7 @@
       "pWithoutCommand": "Genera marcas de tiempo desde Discord usando commandos de barra diagonal"
     },
     "textColor": {
-      "header": "Generador de texto de <1>color</1> de Rebane",
+      "header": "Generador de texto de <one>color</one> de Rebane",
       "p": "Una aplicación simple que crea mensajes coloreados de Discord utilizando los códigos de color ANSI"
     },
     "betaSite": {
@@ -64,8 +64,8 @@
   },
   "timeSync": {
     "syncing": "Sincronizando el tiempo con el servidor…",
-    "outOfSync": "Tu dispositivo del tiempo parece apagado, esto puede provocar errores de cálculo (diferencia: {{deltaTimeMs}}ms)",
-    "inSync": "Tiempo sincronizado (diferencia: {{deltaTimeMs}}ms)"
+    "outOfSync": "Tu dispositivo del tiempo parece apagado, esto puede provocar errores de cálculo (diferencia: {deltaTimeMs}ms)",
+    "inSync": "Tiempo sincronizado (diferencia: {deltaTimeMs}ms)"
   },
   "a11y": {
     "calendar": {
@@ -80,11 +80,11 @@
   },
   "credits": {
     "title": "Créditos",
-    "translationsBy": "Traducciones por <1></1>",
+    "translationsBy": "Traducciones por <one></one>",
     "incompleteTranslations": "Las traducciones están incompletas",
     "contributeTranslations": "Contribuye",
-    "developedBy": "Desarrollado por <1></1>",
-    "externalLibraries": "Utilizando <1></1>",
+    "developedBy": "Desarrollado por <one></one>",
+    "externalLibraries": "Utilizando <one></one>",
     "openSource": "Software de código abierto",
     "fontAwesomeFree": "Font Awesome Free",
     "mantine": "Mantine"

@@ -1,6 +1,6 @@
 {
   "seoDescription": "Genera marques de temps per a missatges de Discord",
-  "howTo": "Trieu una data, copieu la marca de temps desitjada de la columna {{syntaxColName}} i apegueu-la al missatge. El resultat serà una marca de temps dinàmica que es mostra diferent depenent del fus horari de la persona.",
+  "howTo": "Trieu una data, copieu la marca de temps desitjada de la columna {syntaxColName} i apegueu-la al missatge. El resultat serà una marca de temps dinàmica que es mostra diferent depenent del fus horari de la persona.",
   "input": {
     "timezone": "Fus horari",
     "datetime": "Data i hora",
@@ -39,7 +39,7 @@
       "pWithoutCommand": "Generar marques temporals des de dins Discord utilitzant comandes de barra"
     },
     "textColor": {
-      "header": "Generador de text de <1>colors</1> de Rebane",
+      "header": "Generador de text de <one>colors</one> de Rebane",
       "p": "Una aplicació senzilla que crea missatges de Discord acolorits mitjançant codis de colors ANSI"
     },
     "betaSite": {
@@ -64,8 +64,8 @@
   },
   "timeSync": {
     "syncing": "Sincronitzant el temps amb el servidor…",
-    "outOfSync": "El vostre dispositiu sembla no estar a hora i pot incórrer errors de càlcul (diferència: {{deltaTimeMs}} ms)",
-    "inSync": "Temps sincronitzat (diferència: {{deltaTimeMs}} ms)"
+    "outOfSync": "El vostre dispositiu sembla no estar a hora i pot incórrer errors de càlcul (diferència: {deltaTimeMs} ms)",
+    "inSync": "Temps sincronitzat (diferència: {deltaTimeMs} ms)"
   },
   "a11y": {
     "calendar": {
@@ -80,11 +80,11 @@
   },
   "credits": {
     "title": "Crèdits",
-    "translationsBy": "Traducció per <1></1>",
+    "translationsBy": "Traducció per <one></one>",
     "incompleteTranslations": "Traducció incompleta",
     "contributeTranslations": "Contribuïu",
-    "developedBy": "Desenvolupat per <1></1>",
-    "externalLibraries": "Utilitzant <1></1>",
+    "developedBy": "Desenvolupat per <one></one>",
+    "externalLibraries": "Utilitzant <one></one>",
     "openSource": "Programari de codi obert",
     "fontAwesomeFree": "Font Awesome Free",
     "mantine": "Mantine"

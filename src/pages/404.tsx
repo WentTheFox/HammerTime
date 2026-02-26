@@ -3,16 +3,17 @@ import { Alert } from '@mantine/core';
 import { AppContainer } from 'components/app/AppContainer';
 import { Layout } from 'components/app/Layout';
 import { GetStaticProps, NextPage } from 'next';
-import { SSRConfig, useTranslation } from 'next-i18next';
+import { useTranslations } from 'next-intl';
+import { ServerSideTranslations } from 'src/config';
 import { typedServerSideTranslations } from 'src/util/i18n-server';
 
 const NotFoundPage: NextPage = () => {
-  const { t } = useTranslation();
+  const t = useTranslations();
   return (
     <Layout>
       <AppContainer>
-        <Alert color="orange" icon={<FontAwesomeIcon icon="exclamation-triangle" />} title={t('common:notFound.heading')}>
-          {t('common:notFound.content')}
+        <Alert color="orange" icon={<FontAwesomeIcon icon="exclamation-triangle" />} title={t('notFound.heading')}>
+          {t('notFound.content')}
         </Alert>
       </AppContainer>
     </Layout>
@@ -21,7 +22,7 @@ const NotFoundPage: NextPage = () => {
 
 export default NotFoundPage;
 
-export const getStaticProps: GetStaticProps<SSRConfig> = async ({ locale }) => ({
+export const getStaticProps: GetStaticProps<ServerSideTranslations> = async ({ locale }) => ({
   props: {
     ...(await typedServerSideTranslations(locale)),
   },

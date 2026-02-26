@@ -1,5 +1,6 @@
 import { Moment } from 'moment';
 import moment from 'moment-timezone';
+import { FALLBACK_LANGUAGE } from 'src/config';
 
 export const isoTimeFormat = 'HH:mm:ss';
 export const isoFormattingDateFormat = 'YYYY-MM-DD';
@@ -45,4 +46,4 @@ export const getTimezoneValue = (timezone: string) => ({
 
 export const momentToInputValue = (time: Moment = moment(), format = `${isoFormattingDateFormat}\\T${isoTimeFormat}`): string =>
   // Force English locale so values are always in the expected format
-  time.clone().locale('en').format(format);
+  time.clone().locale(FALLBACK_LANGUAGE).format(format);

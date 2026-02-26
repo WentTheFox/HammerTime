@@ -1,6 +1,7 @@
 import { config as dotenvConfig } from 'dotenv';
 import { promises as fs } from 'fs';
 import path from 'path';
+import { fileURLToPath } from 'url';
 import localeConfig from '../public/locales/config.json';
 import { AvailableLanguage, LANGUAGES, LatestLanguageConfigType } from '../src/config';
 import { IndexedReportData, ReportUserData } from '../src/util/crowdin';
@@ -14,7 +15,8 @@ import { migrateLanguageConfig } from './helpers/migrate-language-config';
 dotenvConfig();
 
 const markerString = '### Credits';
-const readmeFolder = path.join(__dirname, '..');
+const dirname = path.dirname(fileURLToPath(import.meta.url));
+const readmeFolder = path.join(dirname, '..');
 const readmePath = path.join(readmeFolder, 'README.md');
 const REMOVED_USER_USERNAME = 'REMOVED_USER';
 

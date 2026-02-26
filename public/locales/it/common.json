@@ -1,6 +1,6 @@
 {
   "seoDescription": "Genera indicatori di timestamp per i messaggi testuali di Discord",
-  "howTo": "Scegli una data, copia il timestamp desiderato dalla colonna {{syntaxColName}}, quindi incollalo ovunque in un messaggio testuale. Il risultato sarà un timestamp dinamico che ognuno visualizzerá diversamente in base al proprio fuso orario.",
+  "howTo": "Scegli una data, copia il timestamp desiderato dalla colonna {syntaxColName}, quindi incollalo ovunque in un messaggio testuale. Il risultato sarà un timestamp dinamico che ognuno visualizzerá diversamente in base al proprio fuso orario.",
   "input": {
     "timezone": "Fuso orario",
     "datetime": "Data e ora",
@@ -39,7 +39,7 @@
       "pWithoutCommand": "Genera timestamp dall'interno di Discord usando i comandi slash"
     },
     "textColor": {
-      "header": "Generatore di Testo <1>Colorato</1> di Rebane",
+      "header": "Generatore di Testo <one>Colorato</one> di Rebane",
       "p": "Una semplice app che crea messaggi Discord colorati utilizzando i codici colore ANSI"
     },
     "betaSite": {
@@ -64,8 +64,8 @@
   },
   "timeSync": {
     "syncing": "Sincronizzazione dell'ora con il server…",
-    "outOfSync": "L'ora del tuo dispositivo sembra sbagliata, questo può portare a errori di calcolo (differenza: {{deltaTimeMs}}ms)",
-    "inSync": "Tempo sincronizzato (differenza: {{deltaTimeMs}}ms)"
+    "outOfSync": "L'ora del tuo dispositivo sembra sbagliata, questo può portare a errori di calcolo (differenza: {deltaTimeMs}ms)",
+    "inSync": "Tempo sincronizzato (differenza: {deltaTimeMs}ms)"
   },
   "a11y": {
     "calendar": {
@@ -80,11 +80,11 @@
   },
   "credits": {
     "title": "Crediti",
-    "translationsBy": "Traduzioni da <1></1>",
+    "translationsBy": "Traduzioni da <one></one>",
     "incompleteTranslations": "Le traduzioni sono incomplete",
     "contributeTranslations": "Contribuisci",
-    "developedBy": "Sviluppato da <1></1>",
-    "externalLibraries": "Utilizzando <1></1>",
+    "developedBy": "Sviluppato da <one></one>",
+    "externalLibraries": "Utilizzando <one></one>",
     "openSource": "Software open source",
     "fontAwesomeFree": "Font Awesome Free",
     "mantine": "Mantine"

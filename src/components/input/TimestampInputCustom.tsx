@@ -5,7 +5,7 @@ import { IconRenderer } from 'components/IconRenderer';
 import styles from 'modules/TimestampPicker.module.scss';
 import moment from 'moment-timezone';
 import { FC, useCallback, useEffect, useMemo, useRef, useState } from 'react';
-import { AvailableLanguage, LANGUAGES } from 'src/config';
+import { AvailableLanguage, FALLBACK_LANGUAGE, LANGUAGES } from 'src/config';
 import { useWithSeconds } from 'src/hooks/useWithSeconds';
 import { dateInputIcon, dateTimeInputIcons, timeInputIcon, TimestampInputProps } from 'src/model/timestamp-input-props';
 import { removeSecondsFromTimeString } from 'src/util/common';
@@ -39,7 +39,7 @@ export const TimestampInputCustom: FC<TimestampInputProps> = ({
     return moment(inputString, formatString).toDate();
   }, [dateString, timeString]);
   const { calendarLabelFormat, calendarYearLabelFormat, calendarWeekdayFormat, rtl } = useMemo(
-    () => LANGUAGES[language as AvailableLanguage],
+    () => LANGUAGES[(language || FALLBACK_LANGUAGE) as AvailableLanguage],
     [language],
   );
   const saferTimeString = useMemo(() => removeSecondsFromTimeString(timeString, withSeconds), [timeString, withSeconds]);
@@ -58,12 +58,12 @@ export const TimestampInputCustom: FC<TimestampInputProps> = ({
 
   const datePickerA11y = useMemo(
     (): CalendarAriaLabels => ({
-      nextMonth: t('common:a11y.calendar.nextMonthLabel') ?? undefined,
-      previousMonth: t('common:a11y.calendar.previousMonthLabel') ?? undefined,
-      nextYear: t('common:a11y.calendar.nextYearLabel') ?? undefined,
-      previousYear: t('common:a11y.calendar.previousYearLabel') ?? undefined,
-      nextDecade: t('common:a11y.calendar.nextDecadeLabel') ?? undefined,
-      previousDecade: t('common:a11y.calendar.previousDecadeLabel') ?? undefined,
+      nextMonth: t('a11y.calendar.nextMonthLabel') ?? undefined,
+      previousMonth: t('a11y.calendar.previousMonthLabel') ?? undefined,
+      nextYear: t('a11y.calendar.nextYearLabel') ?? undefined,
+      previousYear: t('a11y.calendar.previousYearLabel') ?? undefined,
+      nextDecade: t('a11y.calendar.nextDecadeLabel') ?? undefined,
+      previousDecade: t('a11y.calendar.previousDecadeLabel') ?? undefined,
     }),
     [t],
   );
@@ -87,7 +87,7 @@ export const TimestampInputCustom: FC<TimestampInputProps> = ({
   if (combinedInput) {
     return (
       <DateTimePicker
-        label={t('common:input.datetime')}
+        label={t('input.datetime')}
         valueFormat={valueFormats.dateTime}
         value={date}
         id={dateTimeInputId}
@@ -105,7 +105,7 @@ export const TimestampInputCustom: FC<TimestampInputProps> = ({
     <>
       <DatePickerInput
         id={dateInputId}
-        label={t('common:input.date')}
+        label={t('input.date')}
         ariaLabels={datePickerA11y}
         value={date}
         icon={<FontAwesomeIcon icon={dateInputIcon} fixedWidth />}
@@ -121,7 +121,7 @@ export const TimestampInputCustom: FC<TimestampInputProps> = ({
       />
       <TimeInput
         id={timeInputId}
-        label={t('common:input.time')}
+        label={t('input.time')}
         value={saferTimeString}
         icon={
           <ActionIcon onClick={handleTimeIconClick}>

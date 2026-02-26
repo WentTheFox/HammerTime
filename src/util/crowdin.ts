@@ -27,8 +27,8 @@ export interface IndexedReportData {
 
 export const reportData: IndexedReportData = reportDataJson;
 
-export const getTranslationCompletionData = (language: string): TranslationCompletionData | null =>
-  reportData.languages[language]?.progress || null;
+export const getTranslationCompletionData = (language: string | undefined): TranslationCompletionData | null =>
+  (language && reportData.languages[language]?.progress) || null;
 
 export const getTranslationCompletePercent = (value: TranslationCompletionData | null | undefined): number =>
   typeof value !== 'undefined' && value !== null ? value.approval : 0;

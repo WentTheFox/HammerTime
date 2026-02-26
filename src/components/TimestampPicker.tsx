@@ -5,10 +5,10 @@ import { IconRenderer } from 'components/IconRenderer';
 import { TimestampInputBrowser } from 'components/input/TimestampInputBrowser';
 import { TimestampInputCustom } from 'components/input/TimestampInputCustom';
 import { TimezoneSelectItem } from 'components/input/TimezoneSelectItem';
-import { TFunction } from 'i18next';
 import styles from 'modules/TimestampPicker.module.scss';
 import moment from 'moment';
 import { FC, FunctionComponent, PropsWithChildren, useCallback, useEffect, useMemo, useState } from 'react';
+import { TFunction } from 'src/config';
 import { InputChangeHandler, TimestampInputProps } from 'src/model/timestamp-input-props';
 import { isNonEmptyString } from 'src/util/common';
 import { getTimezoneValue, isoFormattingDateFormat, isoTimeFormat, momentToInputValue } from 'src/util/timezone';
@@ -31,7 +31,7 @@ interface PropTypes {
   handleTimeChange: (value: string) => void;
   handleDateTimeChange: (value: string) => void;
   t: TFunction;
-  language: string;
+  language: string | undefined;
   timeString: string;
   timezone?: string;
   defaultTimezone: string;
@@ -130,7 +130,7 @@ export const TimestampPicker: FC<PropTypes> = ({
         />
       </Group>
       <Select
-        label={t('common:input.timezone')}
+        label={t('input.timezone')}
         value={timezone ?? null}
         data={timezoneNames}
         size={inputSize}

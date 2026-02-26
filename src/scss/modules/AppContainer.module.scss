@@ -2,7 +2,10 @@
 
 .shell {
   background-color: #000;
-  $gradient-stops: $bg-gradient-start 0%, $bg-gradient-mid 50%, $bg-gradient-end 100%;
+  $gradient-stops:
+    $bg-gradient-start 0%,
+    $bg-gradient-mid 50%,
+    $bg-gradient-end 100%;
   $gradient-angle: 15deg;
 
   :root[dir='ltr'] & {

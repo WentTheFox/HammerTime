@@ -1,6 +1,6 @@
 {
   "seoDescription": "Tạo lập định dạng thời gian tự động cho các tin nhắn trên Discord",
-  "howTo": "Lựa chọn một thời điểm, sao chép định dạng thời gian theo nhu cầu từ cột {{syntaxColName}}, và gắn định dạng này vào bất cứ đâu trong tin nhắn. Kết quả thu được sẽ là một con dấu thời gian tự động cập nhật dựa trên múi giờ của từng người dùng.",
+  "howTo": "Lựa chọn một thời điểm, sao chép định dạng thời gian theo nhu cầu từ cột {syntaxColName}, và gắn định dạng này vào bất cứ đâu trong tin nhắn. Kết quả thu được sẽ là một con dấu thời gian tự động cập nhật dựa trên múi giờ của từng người dùng.",
   "input": {
     "timezone": "Múi giờ",
     "datetime": "Ngày giờ",
@@ -39,7 +39,7 @@
       "pWithoutCommand": "Tạo lập định dạng thời gian tự động ngay trong Discord bằng các câu lệnh sử dụng gạch chéo"
     },
     "textColor": {
-      "header": "Trình tạo lập Tin nhắn <1>Sắc màu</1> của Rebane",
+      "header": "Trình tạo lập Tin nhắn <one>Sắc màu</one> của Rebane",
       "p": "Một ứng dụng đơn giản để tạo ra những tin nhắn đầy màu sắc trên Discord sử dụng mã màu ANSI"
     }
   },
@@ -56,8 +56,8 @@
   },
   "timeSync": {
     "syncing": "Đang đồng bộ hóa thời gian với máy chủ…",
-    "outOfSync": "Thời gian trên thiết bị của bạn có vẻ không chính xác, điều này có thể dẫn đến các sai số trong tính toán (độ chênh lệch: {{deltaTimeMs}}ms)",
-    "inSync": "Đồng bộ hóa thời gian hoàn tất (độ chênh lệch: {{deltaTimeMs}}ms)"
+    "outOfSync": "Thời gian trên thiết bị của bạn có vẻ không chính xác, điều này có thể dẫn đến các sai số trong tính toán (độ chênh lệch: {deltaTimeMs}ms)",
+    "inSync": "Đồng bộ hóa thời gian hoàn tất (độ chênh lệch: {deltaTimeMs}ms)"
   },
   "a11y": {
     "calendar": {
@@ -72,11 +72,11 @@
   },
   "credits": {
     "title": "Các sự đóng góp",
-    "translationsBy": "Bản dịch bởi <1></1>",
+    "translationsBy": "Bản dịch bởi <one></one>",
     "incompleteTranslations": "Bản dịch chưa hoàn thiện",
     "contributeTranslations": "Đóng góp thêm",
-    "developedBy": "Được phát triển bởi <1></1>",
-    "externalLibraries": "Sử dụng <1></1>",
+    "developedBy": "Được phát triển bởi <one></one>",
+    "externalLibraries": "Sử dụng <one></one>",
     "openSource": "Phần mềm mã nguồn mở",
     "fontAwesomeFree": "Font Awesome Free",
     "mantine": "Mantine"

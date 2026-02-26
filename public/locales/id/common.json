@@ -1,6 +1,6 @@
 {
   "seoDescription": "Hasilkan indikator stempel waktu untuk pesan obrolan Discord",
-  "howTo": "Pilih tanggal, salin stempel waktu yang diinginkan dari kolom {{syntaxColName}}, lalu tempel di mana saja dalam pesan obrolan. Hasilnya akan menjadi stempel waktu yang ditampilkan secara berbeda untuk semua orang berdasarkan zona waktu mereka sendiri.",
+  "howTo": "Pilih tanggal, salin stempel waktu yang diinginkan dari kolom {syntaxColName}, lalu tempel di mana saja dalam pesan obrolan. Hasilnya akan menjadi stempel waktu yang ditampilkan secara berbeda untuk semua orang berdasarkan zona waktu mereka sendiri.",
   "input": {
     "timezone": "Zona waktu",
     "datetime": "Tanggal dan waktu",
@@ -39,7 +39,7 @@
       "pWithoutCommand": "Hasilkan cap waktu dari dalam Discord menggunakan perintah garis miring"
     },
     "textColor": {
-      "header": "Generator Teks <1>Berwarna</1> Rebane",
+      "header": "Generator Teks <one>Berwarna</one> Rebane",
       "p": "Aplikasi sederhana yang membuat pesan Discord berwarna menggunakan kode warna ANSI"
     },
     "betaSite": {
@@ -64,8 +64,8 @@
   },
   "timeSync": {
     "syncing": "Menyinkronkan waktu dengan server...",
-    "outOfSync": "Waktu perangkat Anda tampaknya mati, ini dapat menyebabkan kesalahan penghitungan (perbedaan: {{deltaTimeMs}}ms)",
-    "inSync": "Waktu disinkronkan (perbedaan: {{deltaTimeMs}}ms)"
+    "outOfSync": "Waktu perangkat Anda tampaknya mati, ini dapat menyebabkan kesalahan penghitungan (perbedaan: {deltaTimeMs}ms)",
+    "inSync": "Waktu disinkronkan (perbedaan: {deltaTimeMs}ms)"
   },
   "a11y": {
     "calendar": {
@@ -80,11 +80,11 @@
   },
   "credits": {
     "title": "Kredit",
-    "translationsBy": "Terjemahan oleh <1></1>",
+    "translationsBy": "Terjemahan oleh <one></one>",
     "incompleteTranslations": "Terjemahan tidak lengkap",
     "contributeTranslations": "Kontribusi",
-    "developedBy": "Dikembangkan oleh <1></1>",
-    "externalLibraries": "Menggunakan <1></1>",
+    "developedBy": "Dikembangkan oleh <one></one>",
+    "externalLibraries": "Menggunakan <one></one>",
     "openSource": "Perangkat lunak sumber terbuka",
     "fontAwesomeFree": "Font Awesome Free",
     "mantine": "Mantine"

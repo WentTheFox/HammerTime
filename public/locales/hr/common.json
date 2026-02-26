@@ -1,6 +1,6 @@
 {
   "seoDescription": "Generirajte indikatore vremenske oznake za Discord chat poruke",
-  "howTo": "Odaberite datum, kopirajte željenu vremensku oznaku iz stupca {{syntaxColName}}, zatim je zalijepite bilo gdje u chat poruci. Rezultat će biti dinamična vremenska oznaka koja se prikazuje različito za svakoga na temelju njegove vlastite vremenske zone.",
+  "howTo": "Odaberite datum, kopirajte željenu vremensku oznaku iz stupca {syntaxColName}, zatim je zalijepite bilo gdje u chat poruci. Rezultat će biti dinamična vremenska oznaka koja se prikazuje različito za svakoga na temelju njegove vlastite vremenske zone.",
   "input": {
     "timezone": "Vremenska zona",
     "datetime": "Datum i vrijeme",
@@ -39,7 +39,7 @@
       "pWithoutCommand": "Generirajte vremenske oznake unutar Discorda koristeći naredbe kose crte"
     },
     "textColor": {
-      "header": "Rebaneov <1>obojeni</1> generator teksta",
+      "header": "Rebaneov <one>obojeni</one> generator teksta",
       "p": "Jednostavna aplikacija koja stvara Discord poruke u boji koristeći ANSI kodove boja"
     }
   },
@@ -56,8 +56,8 @@
   },
   "timeSync": {
     "syncing": "Sinkronizacija vremena sa serverom…",
-    "outOfSync": "Čini se da je vrijeme vašeg uređaja isključeno, to može dovesti do pogrešaka u izračunu (razlika: {{deltaTimeMs}}ms)",
-    "inSync": "Vrijeme sinkronizirano (razlika: {{deltaTimeMs}}ms)"
+    "outOfSync": "Čini se da je vrijeme vašeg uređaja isključeno, to može dovesti do pogrešaka u izračunu (razlika: {deltaTimeMs}ms)",
+    "inSync": "Vrijeme sinkronizirano (razlika: {deltaTimeMs}ms)"
   },
   "a11y": {
     "calendar": {
@@ -72,8 +72,8 @@
   },
   "credits": {
     "title": "Zasluge",
-    "intro": "Ovo web mjesto je softver otvorenog koda koji je razvio <1>{{developerName}}</1> koristeći <3>Font Awesome Free</3> i <5>Mantine</5>. Dostupan je na više jezika zahvaljujući prevoditeljima volonterima.",
-    "translationsBy": "Prijevodi <1></1>",
+    "intro": "Ovo web mjesto je softver otvorenog koda koji je razvio <one>{developerName}</one> koristeći <3>Font Awesome Free</3> i <5>Mantine</5>. Dostupan je na više jezika zahvaljujući prevoditeljima volonterima.",
+    "translationsBy": "Prijevodi <one></one>",
     "incompleteTranslations": "Prijevodi su nepotpuni",
     "contributeTranslations": "Doprinos"
   }

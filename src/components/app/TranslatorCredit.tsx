@@ -1,4 +1,5 @@
-import { Trans, useTranslation } from 'next-i18next';
+import { useTranslations } from 'next-intl';
+import { useRouter } from 'next/router';
 import { FC, useMemo } from 'react';
 import { AvailableLanguage, LANGUAGES } from 'src/config';
 import { getTranslatorIds, normalizeCredit, NormalizedCredits } from 'src/util/translation';
@@ -9,14 +10,15 @@ import { Flex, Text } from '@mantine/core';
 import { reportData } from 'src/util/crowdin';
 
 export const TranslatorCredit: FC = () => {
-  const {
-    t,
-    i18n: { language },
-  } = useTranslation();
+  const t = useTranslations();
+  const { locale: language } = useRouter();
 
-  const currentLocaleConfig = useMemo(() => (language in LANGUAGES ? LANGUAGES[language as AvailableLanguage] : undefined), [language]);
+  const currentLocaleConfig = useMemo(
+    () => (language && language in LANGUAGES ? LANGUAGES[language as AvailableLanguage] : undefined),
+    [language],
+  );
   const currentLocaleReportData = useMemo(
-    () => (language in reportData.languages ? reportData.languages[language] : undefined),
+    () => (language && language in reportData.languages ? reportData.languages[language] : undefined),
     [language],
   );
   const translatorIds = useMemo(
@@ -43,10 +45,8 @@ export const TranslatorCredit: FC = () => {
         <FontAwesomeIcon icon="language" className={styles['text-icon']} />
       </Text>
       <Text mb="sm" transform="uppercase">
-        <Trans t={t} i18nKey="credits.translationsBy">
-          0
-          <TranslationCredits credits={translationCredits} />
-        </Trans>
+        {/* eslint-disable-next-line @typescript-eslint/naming-convention,react/no-unstable-nested-components */}
+        {t.rich('credits.translationsBy', { one: () => <TranslationCredits credits={translationCredits} /> })}
       </Text>
     </Flex>
   );

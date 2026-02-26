@@ -4,7 +4,7 @@ import { LanguageFlag } from 'components/i18n/LanguageFlag';
 import { UnfinishedTranslationsLink } from 'components/i18n/UnfinishedTranslationsLink';
 import toPairs from 'lodash/toPairs';
 import styles from 'modules/LanguageSelector.module.scss';
-import { useTranslation } from 'next-i18next';
+import { useTranslations } from 'next-intl';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import { FC, useCallback, useMemo, useState } from 'react';
@@ -17,10 +17,8 @@ const noTranslationsNeededLocales = new Set(['en', 'en-GB', 'hu']);
 
 export const LanguageSelector: FC = () => {
   const router = useRouter();
-  const {
-    t,
-    i18n: { language },
-  } = useTranslation();
+  const language = router.locale;
+  const t = useTranslations();
   const theme = useMantineTheme();
   const [opened, setOpened] = useState(false);
   const toggleOpened = useCallback(() => {
@@ -28,12 +26,15 @@ export const LanguageSelector: FC = () => {
   }, []);
   const sortedLanguages = useMemo(() => toPairs(LANGUAGES).sort(([, a], [, b]) => a.nativeName.localeCompare(b.nativeName)), []);
 
-  const currentLanguage = useMemo(() => (language in LANGUAGES ? LANGUAGES[language as AvailableLanguage] : undefined), [language]);
+  const currentLanguage = useMemo(
+    () => (language && language in LANGUAGES ? LANGUAGES[language as AvailableLanguage] : undefined),
+    [language],
+  );
 
   const completionData = getTranslationCompletionData(language);
   const languagePercent = getTranslationCompletePercent(completionData);
   const isTranslationComplete = getIsTranslationComplete(languagePercent);
-  const crowdinLocale = currentLanguage?.crowdinLocale || language;
+  const crowdinLocale = currentLanguage?.crowdinLocale || language || '';
   const isTranslationNeeded = !noTranslationsNeededLocales.has(crowdinLocale);
 
   return (
@@ -73,7 +74,7 @@ export const LanguageSelector: FC = () => {
               rightIcon={<FontAwesomeIcon icon={opened ? 'caret-down' : 'caret-up'} />}
               sx={{ flex: 1 }}
             >
-              <Text>{t('common:changeLanguage')}</Text>
+              <Text>{t('changeLanguage')}</Text>
             </Button>
             {isTranslationNeeded && <UnfinishedTranslationsLink percent={languagePercent} crowdinLocale={crowdinLocale} />}
           </Group>
@@ -86,7 +87,6 @@ export const LanguageSelector: FC = () => {
               const dropdownItemJsx = (
                 <Button
                   key={isCurrentLanguage ? key : undefined}
-                  component={isCurrentLanguage ? undefined : ('a' as `button`)}
                   variant="subtle"
                   className={styles.item}
                   dir={getDirAttribute(key as AvailableLanguage)}
@@ -103,9 +103,6 @@ export const LanguageSelector: FC = () => {
                   <span className={styles['native-name']}>{value.nativeName}</span>
                 </Button>
               );
-              if (isCurrentLanguage) {
-                return dropdownItemJsx;
-              }
               return (
                 <Link
                   key={key}
@@ -116,7 +113,8 @@ export const LanguageSelector: FC = () => {
                   locale={key}
                   passHref
                   shallow={false}
-                  legacyBehavior
+                  className={styles.itemLink}
+                  aria-current={isCurrentLanguage ? 'true' : undefined}
                 >
                   {dropdownItemJsx}
                 </Link>

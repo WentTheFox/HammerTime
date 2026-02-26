@@ -1,6 +1,6 @@
 {
   "seoDescription": "Generer tidsstempler til Discord beskeder",
-  "howTo": "Vælg en dato, kopier det ønskede tidsstempel fra kolonnen {{syntaxColName}}, og indsæt det hvor som helst i en besked. Resultatet vil være et dynamisk tidsstempel, der vises forskelligt for alle baseret på deres egen tidszone.",
+  "howTo": "Vælg en dato, kopier det ønskede tidsstempel fra kolonnen {syntaxColName}, og indsæt det hvor som helst i en besked. Resultatet vil være et dynamisk tidsstempel, der vises forskelligt for alle baseret på deres egen tidszone.",
   "input": {
     "timezone": "Tidszone",
     "datetime": "Dato og tidspunkt",
@@ -39,7 +39,7 @@
       "pWithoutCommand": "Generer tidsstempler fra Discord ved hjælp af slash kommandoer"
     },
     "textColor": {
-      "header": "Rebanes <1>farvede</1> tekstgenerator",
+      "header": "Rebanes <one>farvede</one> tekstgenerator",
       "p": "En simpel app, der skaber farvede Discord beskeder ved hjælp af ANSI farvekoder"
     },
     "betaSite": {
@@ -64,8 +64,8 @@
   },
   "timeSync": {
     "syncing": "Synkronisering af tid med server...",
-    "outOfSync": "Din enheds tid virker forkert, det kan føre til beregningsfejl (forskel: {{deltaTimeMs}}ms)",
-    "inSync": "Tidssynkroniseret (forskel: {{deltaTimeMs}}ms)"
+    "outOfSync": "Din enheds tid virker forkert, det kan føre til beregningsfejl (forskel: {deltaTimeMs}ms)",
+    "inSync": "Tidssynkroniseret (forskel: {deltaTimeMs}ms)"
   },
   "a11y": {
     "calendar": {
@@ -80,11 +80,11 @@
   },
   "credits": {
     "title": "Krediteringer",
-    "translationsBy": "Oversættelser af <1></1>",
+    "translationsBy": "Oversættelser af <one></one>",
     "incompleteTranslations": "Oversættelserne er ufuldstændige",
     "contributeTranslations": "Bidrage",
-    "developedBy": "Udviklet af <1></1>",
-    "externalLibraries": "Indeholder <1></1>",
+    "developedBy": "Udviklet af <one></one>",
+    "externalLibraries": "Indeholder <one></one>",
     "openSource": "Open source software",
     "fontAwesomeFree": "Font Awesome Free",
     "mantine": "Mantine"

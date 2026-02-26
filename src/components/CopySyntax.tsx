@@ -1,7 +1,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { ActionIcon, ActionIconProps, Code, CodeProps, Group, Tooltip } from '@mantine/core';
 import { useClipboard } from '@mantine/hooks';
-import { TFunction } from 'i18next';
+import { TFunction } from 'src/config';
 import styles from 'modules/TimestampsTable.module.scss';
 import { useCallback, useMemo, FunctionComponent } from 'react';
 
@@ -10,14 +10,7 @@ const codeSx: CodeProps['sx'] = (theme) => ({ fontSize: theme.fontSizes[elementS
 
 export const CopySyntax: FunctionComponent<{ syntax: string; t: TFunction }> = ({ t, syntax }) => {
   const clipboard = useClipboard({ timeout: 500 });
-  const buttonTooltipText = useMemo(
-    () =>
-      t('common:buttons.copy', {
-        defaultValue: false,
-        fallbackLng: [],
-      }),
-    [t],
-  );
+  const buttonTooltipText = useMemo(() => t('buttons.copy'), [t]);
   const copyToClipboard = useCallback(() => {
     clipboard.copy(syntax);
   }, [clipboard, syntax]);

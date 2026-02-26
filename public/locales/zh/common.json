@@ -1,6 +1,6 @@
 {
   "seoDescription": "为 Discord 聊天消息生成时间戳",
-  "howTo": "选择一个日期，从 {{syntaxColName}} 列复制想要的时间戳代码，然后粘贴到 Discord 消息中。在聊天消息中，该时间戳会动态地根据每个用户的时区更改显示的时间。",
+  "howTo": "选择一个日期，从 {syntaxColName} 列复制想要的时间戳代码，然后粘贴到 Discord 消息中。在聊天消息中，该时间戳会动态地根据每个用户的时区更改显示的时间。",
   "input": {
     "timezone": "时区",
     "datetime": "日期与时间",
@@ -39,7 +39,7 @@
       "pWithoutCommand": "使用斜杠指令在 Discord 内生成时间戳"
     },
     "textColor": {
-      "header": "Rebane 的<1>彩色</1>文本生成器",
+      "header": "Rebane 的<one>彩色</one>文本生成器",
       "p": "一个简单的应用，使用 ANSI 颜色代码创建带颜色文本的 Discord 消息"
     },
     "betaSite": {
@@ -64,8 +64,8 @@
   },
   "timeSync": {
     "syncing": "正在与服务器同步时间…",
-    "outOfSync": "似乎您的设备的时间不正确，这可能会导致计算错误。（差异： {{deltaTimeMs}}ms）",
-    "inSync": "时间已同步（差异： {{deltaTimeMs}}ms）"
+    "outOfSync": "似乎您的设备的时间不正确，这可能会导致计算错误。（差异： {deltaTimeMs}ms）",
+    "inSync": "时间已同步（差异： {deltaTimeMs}ms）"
   },
   "a11y": {
     "calendar": {
@@ -80,11 +80,11 @@
   },
   "credits": {
     "title": "致谢",
-    "translationsBy": "译者：<1></1>",
+    "translationsBy": "译者：<one></one>",
     "incompleteTranslations": "翻译不完整",
     "contributeTranslations": "协助翻译",
-    "developedBy": "开发者<1></1>",
-    "externalLibraries": "使用<1></1>",
+    "developedBy": "开发者<one></one>",
+    "externalLibraries": "使用<one></one>",
     "openSource": "开源软件",
     "fontAwesomeFree": "Font Awesome Free",
     "mantine": "Mantine"

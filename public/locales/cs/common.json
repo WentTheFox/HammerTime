@@ -1,6 +1,6 @@
 {
   "seoDescription": "Generování ukazatelů časových razítek pro zprávy chatu Discord",
-  "howTo": "Vyberte datum, zkopírujte požadované časové razítko ze sloupce {{syntaxColName}} a vložte jej kamkoli do zprávy chatu. Výsledkem bude dynamické časové razítko, které se každému zobrazí jinak na základě jeho časového pásma.",
+  "howTo": "Vyberte datum, zkopírujte požadované časové razítko ze sloupce {syntaxColName} a vložte jej kamkoli do zprávy chatu. Výsledkem bude dynamické časové razítko, které se každému zobrazí jinak na základě jeho časového pásma.",
   "input": {
     "timezone": "Časové pásmo",
     "datetime": "Datum a čas",
@@ -39,7 +39,7 @@
       "pWithoutCommand": "Generování časových razítek přímo z aplikace Discord pomocí lomítkových příkazů"
     },
     "textColor": {
-      "header": "Generátor <1>barevného</1> textu od společnosti Rebane",
+      "header": "Generátor <one>barevného</one> textu od společnosti Rebane",
       "p": "Jednoduchá aplikace, která vytváří barevné zprávy Discord pomocí barevných kódů ANSI"
     },
     "betaSite": {
@@ -64,8 +64,8 @@
   },
   "timeSync": {
     "syncing": "Synchronizuji čas se serverem…",
-    "outOfSync": "Zdá se, že se čas vašeho zařízení liší, což může vést k chybám ve výpočtu (rozdíl: {{deltaTimeMs}}ms)",
-    "inSync": "Čas synchronizován (rozdíl: {{deltaTimeMs}}ms)"
+    "outOfSync": "Zdá se, že se čas vašeho zařízení liší, což může vést k chybám ve výpočtu (rozdíl: {deltaTimeMs}ms)",
+    "inSync": "Čas synchronizován (rozdíl: {deltaTimeMs}ms)"
   },
   "a11y": {
     "calendar": {
@@ -80,11 +80,11 @@
   },
   "credits": {
     "title": "Zásluhy",
-    "translationsBy": "Přeložili <1></1>",
+    "translationsBy": "Přeložili <one></one>",
     "incompleteTranslations": "Překlad není úplný",
     "contributeTranslations": "Přispět",
-    "developedBy": "Vytvořili <1></1>",
-    "externalLibraries": "Použitím <1></1>",
+    "developedBy": "Vytvořili <one></one>",
+    "externalLibraries": "Použitím <one></one>",
     "openSource": "Otevřený software",
     "fontAwesomeFree": "Font Awesome Free",
     "mantine": "Mantine"

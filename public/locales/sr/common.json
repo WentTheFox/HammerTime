@@ -1,6 +1,6 @@
 {
   "seoDescription": "Generišite vremenske oznake za poruke na Discord aplikaciji",
-  "howTo": "Izaberite datum, kopirajte željenu vremensku oznaku iz kolone {{syntaxColName}}, a zatim je nalepite bilo gde u poruci. Rezultat će biti dinamička vremenska oznaka koja se prikazuje različito za svakoga na osnovu njihove vremenske zone.",
+  "howTo": "Izaberite datum, kopirajte željenu vremensku oznaku iz kolone {syntaxColName}, a zatim je nalepite bilo gde u poruci. Rezultat će biti dinamička vremenska oznaka koja se prikazuje različito za svakoga na osnovu njihove vremenske zone.",
   "input": {
     "timezone": "Vremenska zona",
     "datetime": "Datum i vreme",
@@ -39,7 +39,7 @@
       "pWithoutCommand": "Generišite vremenske oznake iz Discord-a pomoću slash komandi"
     },
     "textColor": {
-      "header": "Rebaneov generator <1>obojenog</1> teksta",
+      "header": "Rebaneov generator <one>obojenog</one> teksta",
       "p": "Jednostavna aplikacija koja kreira obojene Discord poruke koristeći ANSI kodove boja"
     }
   },
@@ -56,8 +56,8 @@
   },
   "timeSync": {
     "syncing": "Sinhronizovanje vremena sa serverom…",
-    "outOfSync": "Izgleda da vreme vašeg uređaja nije tačno, to može dovesti do grešaka u proračunu vreme (razlika: {{deltaTimeMs}}ms)",
-    "inSync": "Vreme sinhronizovano (razlika: {{deltaTimeMs}}ms)"
+    "outOfSync": "Izgleda da vreme vašeg uređaja nije tačno, to može dovesti do grešaka u proračunu vreme (razlika: {deltaTimeMs}ms)",
+    "inSync": "Vreme sinhronizovano (razlika: {deltaTimeMs}ms)"
   },
   "a11y": {
     "calendar": {
@@ -72,12 +72,12 @@
   },
   "credits": {
     "title": "Autori",
-    "intro": "Ova veb stranica je softver otvorenog koda koji je razvio <1>{{developerName}}</1> koristeći <3>Font Awesome Free</3> i <5>Mantine</5>. Dostupan je na više jezika zahvaljujući volonterskim prevodiocima.",
-    "translationsBy": "Prevod <1></1>",
+    "intro": "Ova veb stranica je softver otvorenog koda koji je razvio <one>{developerName}</one> koristeći <3>Font Awesome Free</3> i <5>Mantine</5>. Dostupan je na više jezika zahvaljujući volonterskim prevodiocima.",
+    "translationsBy": "Prevod <one></one>",
     "incompleteTranslations": "Prevodi su nepotpuni",
     "contributeTranslations": "Pomogni u prevodu",
-    "developedBy": "Naprvaio <1></1>",
-    "externalLibraries": "Koristeći <1></1>",
+    "developedBy": "Naprvaio <one></one>",
+    "externalLibraries": "Koristeći <one></one>",
     "openSource": "Softver otvorenog koda",
     "fontAwesomeFree": "Font Awesome (Besplatna Verzija)",
     "mantine": "Mantine"

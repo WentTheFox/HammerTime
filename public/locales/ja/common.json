@@ -1,6 +1,6 @@
 {
   "seoDescription": "Discordメッセージのタイムスタンプを生成できる",
-  "howTo": "日付を選び、 メッセージの {{syntaxColName}} 列文からタイムスタンプを自由にコピーし、あなたのメッセージにどこにでも貼り付ける事ができます。 みんなのタイムゾーンに基づいて表示される動的タイムスタンプになります。",
+  "howTo": "日付を選び、 メッセージの {syntaxColName} 列文からタイムスタンプを自由にコピーし、あなたのメッセージにどこにでも貼り付ける事ができます。 みんなのタイムゾーンに基づいて表示される動的タイムスタンプになります。",
   "input": {
     "timezone": "タイムゾーン",
     "datetime": "日付と時刻",
@@ -39,7 +39,7 @@
       "pWithoutCommand": "Discord内からコマンドでタイムスタンプを生成できます"
     },
     "textColor": {
-      "header": "Rebaneの<1>色付き</1>テキストジェネレーター",
+      "header": "Rebaneの<one>色付き</one>テキストジェネレーター",
       "p": "ANSIカラーコードを使って、色を付けたDiscordメッセージを作るアプリ"
     },
     "betaSite": {
@@ -64,8 +64,8 @@
   },
   "timeSync": {
     "syncing": "サーバーと時間を同期化中…",
-    "outOfSync": "デバイスの時間がズレています。計算エラーにつながるかもしれません（誤差：{{deltaTimeMs}}ms）",
-    "inSync": "時間の同期化が完了しました（誤差：{{deltaTimeMs}}ms）"
+    "outOfSync": "デバイスの時間がズレています。計算エラーにつながるかもしれません（誤差：{deltaTimeMs}ms）",
+    "inSync": "時間の同期化が完了しました（誤差：{deltaTimeMs}ms）"
   },
   "a11y": {
     "calendar": {
@@ -80,11 +80,11 @@
   },
   "credits": {
     "title": "クレジット",
-    "translationsBy": "翻訳: <1></1>",
+    "translationsBy": "翻訳: <one></one>",
     "incompleteTranslations": "翻訳は未完成です",
     "contributeTranslations": "貢献",
-    "developedBy": "開発: <1></1>",
-    "externalLibraries": "使用: <1></1>",
+    "developedBy": "開発: <one></one>",
+    "externalLibraries": "使用: <one></one>",
     "openSource": "オープンソース",
     "fontAwesomeFree": "Font Awesome Free",
     "mantine": "Mantine"

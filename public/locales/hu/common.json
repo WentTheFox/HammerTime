@@ -1,6 +1,6 @@
 {
   "seoDescription": "Generálj időpont jelölőket a Discord üzeneteidhez",
-  "howTo": "Válassz egy dátumot, másold ki a kívánt jelölőt a {{syntaxColName}} oszlopból, majd másold be bárhova egy üzenetbe. Az eredmény egy dinamikus időbélyeg lesz, ami mindenkinek máshogy fog megjelenni a saját időzónájuktól függően.",
+  "howTo": "Válassz egy dátumot, másold ki a kívánt jelölőt a {syntaxColName} oszlopból, majd másold be bárhova egy üzenetbe. Az eredmény egy dinamikus időbélyeg lesz, ami mindenkinek máshogy fog megjelenni a saját időzónájuktól függően.",
   "input": {
     "timezone": "Időzóna",
     "datetime": "Dátum és idő",
@@ -39,7 +39,7 @@
       "pWithoutCommand": "Generálj időbélyegeket slash parancsok használatával"
     },
     "textColor": {
-      "header": "Rebane <1>Színezett</1> Szöveg Generálója",
+      "header": "Rebane <one>Színezett</one> Szöveg Generálója",
       "p": "Egy egyszerű oldal, ami ANSI színkódokkal színezett Discord üzeneteket készít"
     },
     "betaSite": {
@@ -64,8 +64,8 @@
   },
   "timeSync": {
     "syncing": "Idő szinkronizálása a szerverrel…",
-    "outOfSync": "Úgy tűnik az eszköz időbeállítása hibás, ez számítási hibákhoz vezethet (különbség: {{deltaTimeMs}}ms)",
-    "inSync": "Idő szinkronizálva (különbség: {{deltaTimeMs}}ms)"
+    "outOfSync": "Úgy tűnik az eszköz időbeállítása hibás, ez számítási hibákhoz vezethet (különbség: {deltaTimeMs}ms)",
+    "inSync": "Idő szinkronizálva (különbség: {deltaTimeMs}ms)"
   },
   "a11y": {
     "calendar": {
@@ -80,11 +80,11 @@
   },
   "credits": {
     "title": "Névjegy",
-    "translationsBy": "Fordítók: <1></1>",
+    "translationsBy": "Fordítók: <one></one>",
     "incompleteTranslations": "A fordítások hiányosak",
     "contributeTranslations": "Közreműködés",
-    "developedBy": "Fejlesztette: <1></1>",
-    "externalLibraries": "Ezek felhasználásával: <1></1>",
+    "developedBy": "Fejlesztette: <one></one>",
+    "externalLibraries": "Ezek felhasználásával: <one></one>",
     "openSource": "Nyílt forráskódú szoftver",
     "fontAwesomeFree": "Font Awesome Free",
     "mantine": "Mantine"

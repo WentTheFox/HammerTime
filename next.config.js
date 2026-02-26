@@ -1,10 +1,13 @@
-const { i18n } = require('./next-i18next.config.js');
-const { redirects } = require('./vercel.json');
+import vercelConfig from './vercel.json' with { type: 'json' };
+import localesConfig from './public/locales/config.json' with { type: 'json' };
 
 /**
  * @type {import('next').NextConfig}
  */
-module.exports = {
-  i18n,
-  redirects: async () => redirects,
+export default {
+  i18n: {
+    locales: Object.keys(localesConfig.languages),
+    defaultLocale: 'en',
+  },
+  redirects: async () => vercelConfig.redirects,
 };

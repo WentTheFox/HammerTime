@@ -1,7 +1,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Button, Tooltip } from '@mantine/core';
 import { ExternalLink } from 'components/ExternalLink';
-import { useTranslation } from 'next-i18next';
+import { useTranslations } from 'next-intl';
 import { FC } from 'react';
 import { CROWDIN_URL } from 'src/config';
 import { getIsTranslationComplete } from 'src/util/crowdin';
@@ -13,7 +13,7 @@ export const UnfinishedTranslationsLink: FC<{
   crowdinLocale: string;
   percent?: number;
 }> = ({ crowdinLocale, percent }) => {
-  const { t } = useTranslation();
+  const t = useTranslations();
 
   const label = t('credits.contributeTranslations');
   const isComplete = getIsTranslationComplete(percent);

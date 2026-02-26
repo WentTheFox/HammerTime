@@ -3,7 +3,7 @@ import { Aside, Flex, Navbar, ScrollArea, Space, Text, Title } from '@mantine/co
 import { ExternalLink } from 'components/ExternalLink';
 import { LanguageSelector } from 'components/i18n/LanguageSelector';
 import { InputSettings } from 'components/InputSettings';
-import { Trans, useTranslation } from 'next-i18next';
+import { useTranslations } from 'next-intl';
 import { FC } from 'react';
 import { REPOSITORY_URL } from 'src/config';
 import { DeveloperCredit } from 'components/app/DeveloperCredit';
@@ -12,7 +12,7 @@ import { TranslatorCredit } from 'components/app/TranslatorCredit';
 import styles from 'modules/AppSidebar.module.scss';
 
 export const AppSidebar: FC<{ opened: boolean; Component: typeof Aside | typeof Navbar }> = ({ opened, Component }) => {
-  const { t } = useTranslation();
+  const t = useTranslations();
   return (
     <Component
       p="md"
@@ -38,10 +38,8 @@ export const AppSidebar: FC<{ opened: boolean; Component: typeof Aside | typeof 
             <FontAwesomeIcon icon="user" className={styles['text-icon']} />
           </Text>
           <Text mb="sm" transform="uppercase">
-            <Trans t={t} i18nKey="credits.developedBy">
-              0
-              <DeveloperCredit />
-            </Trans>
+            {/* eslint-disable-next-line @typescript-eslint/naming-convention,react/no-unstable-nested-components */}
+            {t.rich('credits.developedBy', { one: () => <DeveloperCredit /> })}
           </Text>
         </Flex>
         <Flex wrap="nowrap">
@@ -49,10 +47,8 @@ export const AppSidebar: FC<{ opened: boolean; Component: typeof Aside | typeof 
             <FontAwesomeIcon icon="code" className={styles['text-icon']} />
           </Text>
           <Text mb="sm" transform="uppercase">
-            <Trans t={t} i18nKey="credits.externalLibraries">
-              0
-              <ExternalLibrariesCredit />
-            </Trans>
+            {/* eslint-disable-next-line react/no-unstable-nested-components,@typescript-eslint/naming-convention */}
+            {t.rich('credits.externalLibraries', { one: () => <ExternalLibrariesCredit /> })}
           </Text>
         </Flex>
         <TranslatorCredit />
@@ -63,7 +59,7 @@ export const AppSidebar: FC<{ opened: boolean; Component: typeof Aside | typeof 
         <Text mb="sm" transform="uppercase">
           <ExternalLink href={REPOSITORY_URL}>
             <FontAwesomeIcon icon={['fab', 'github']} className={styles['text-icon']} />
-            {t('common:viewSource')}
+            {t('viewSource')}
           </ExternalLink>
         </Text>
         <Text size="sm">

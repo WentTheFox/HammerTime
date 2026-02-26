@@ -82,11 +82,6 @@
       {
         "paths": [
           {
-            "name": "react-i18next",
-            "importNames": ["useTranslation"],
-            "message": "Import from next-i18next instead!"
-          },
-          {
             "name": "react",
             "importNames": ["default"],
             "message": "This is not actually necessary"

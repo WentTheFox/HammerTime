@@ -1,6 +1,6 @@
 {
   "seoDescription": "Discord용 타임스탬프를 생성할 수 있습니다.",
-  "howTo": "날짜를 고르고, {{syntaxColName}} 리스트에서 원하는 형식의 타임스탬프를 복사하여, 메시지에 그대로 붙여 넣으세요. 시간대에 따라, 모두에게 다르게 보이는 동적 타임스탬프가 될 것입니다.",
+  "howTo": "날짜를 고르고, {syntaxColName} 리스트에서 원하는 형식의 타임스탬프를 복사하여, 메시지에 그대로 붙여 넣으세요. 시간대에 따라, 모두에게 다르게 보이는 동적 타임스탬프가 될 것입니다.",
   "input": {
     "timezone": "시간대",
     "datetime": "일시",
@@ -39,7 +39,7 @@
       "pWithoutCommand": "슬래시 명령어를 사용하여 Discord 내에서 타임스탬프를 생성하세요."
     },
     "textColor": {
-      "header": "Rebane님의 <1>컬러</1> 텍스트 생성기",
+      "header": "Rebane님의 <one>컬러</one> 텍스트 생성기",
       "p": "ANSI 컬러 코드를 사용해서 Discord용 컬러 텍스트를 생성하는 간단한 앱"
     },
     "betaSite": {
@@ -64,8 +64,8 @@
   },
   "timeSync": {
     "syncing": "서버와 시간 동기화 중…",
-    "outOfSync": "기기 시간이 틀어진 거 같네요. 계산 에러로 이어질 수도 있습니다. (오차: {{deltaTimeMs}}ms)",
-    "inSync": "시간 동기화 완료 (오차: {{deltaTimeMs}}ms)"
+    "outOfSync": "기기 시간이 틀어진 거 같네요. 계산 에러로 이어질 수도 있습니다. (오차: {deltaTimeMs}ms)",
+    "inSync": "시간 동기화 완료 (오차: {deltaTimeMs}ms)"
   },
   "a11y": {
     "calendar": {
@@ -80,11 +80,11 @@
   },
   "credits": {
     "title": "크레딧",
-    "translationsBy": "번역: <1></1>",
+    "translationsBy": "번역: <one></one>",
     "incompleteTranslations": "번역 미완료",
     "contributeTranslations": "기여하기",
-    "developedBy": "개발: <1></1>",
-    "externalLibraries": "사용 중: <1></1>",
+    "developedBy": "개발: <one></one>",
+    "externalLibraries": "사용 중: <one></one>",
     "openSource": "오픈 소스 소프트웨어",
     "fontAwesomeFree": "Font Awesome Free",
     "mantine": "Mantine"
